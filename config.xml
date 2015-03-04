@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.smart.droid.stock.tip" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>StockTip</name>
+<widget id="com.smart.droid.stock.tip" version="0.0.1" android-versionCode="1" ios-CFBundleVersion="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Stock: Level and Tips</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        This aop provides the Daily Nifty Spot Level and useful long term and medium term stock tips.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="smartdroidies@gmail.com" href="http://smartdroidies.com">
+        SmartDroidies Team
     </author>
     <content src="index.html" />
     <access origin="*" />

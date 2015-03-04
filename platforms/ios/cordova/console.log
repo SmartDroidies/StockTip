@@ -1,0 +1,940 @@
+2015-03-01 17:14:42.511 Stock: Level and Tips[1258:38285] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/FE54C19F-A5C9-4B6A-B730-1BFA54AEF75E/Library/Cookies/Cookies.binarycookies
+2015-03-01 17:14:42.896 Stock: Level and Tips[1258:38285] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 17:14:42.897 Stock: Level and Tips[1258:38285] Multi-tasking -> Device: YES, App: YES
+2015-03-01 17:14:42.912 Stock: Level and Tips[1258:38285] Unlimited access to network resources
+2015-03-01 17:14:42.927 Stock: Level and Tips[1258:38285] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 17:14:43.792 Stock: Level and Tips[1258:38285] Resetting plugins due to page load.
+2015-03-01 17:14:43.941 Stock: Level and Tips[1258:38285] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/26A8EDD5-143B-4744-8327-56B8772BAA33/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 17:28:19.365 Stock: Level and Tips[1520:42566] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/48B3068D-8F08-47F8-811A-F4E03F624266/Library/Cookies/Cookies.binarycookies
+2015-03-01 17:28:19.519 Stock: Level and Tips[1520:42566] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 17:28:19.519 Stock: Level and Tips[1520:42566] Multi-tasking -> Device: YES, App: YES
+2015-03-01 17:28:19.520 Stock: Level and Tips[1520:42566] Unlimited access to network resources
+2015-03-01 17:28:19.523 Stock: Level and Tips[1520:42566] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 17:28:19.921 Stock: Level and Tips[1520:42566] Resetting plugins due to page load.
+2015-03-01 17:28:20.183 Stock: Level and Tips[1520:42566] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/D2F47F24-D215-4ED0-85F7-D3D9E5067E2E/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 17:35:53.032 Stock: Level and Tips[1785:46103] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/88ACC1CD-2E4F-4A4C-9A8A-B6CA3BCD7257/Library/Cookies/Cookies.binarycookies
+2015-03-01 17:35:53.142 Stock: Level and Tips[1785:46103] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 17:35:53.142 Stock: Level and Tips[1785:46103] Multi-tasking -> Device: YES, App: YES
+2015-03-01 17:35:53.144 Stock: Level and Tips[1785:46103] Unlimited access to network resources
+2015-03-01 17:35:53.147 Stock: Level and Tips[1785:46103] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 17:35:53.505 Stock: Level and Tips[1785:46103] Resetting plugins due to page load.
+2015-03-01 17:35:53.612 Stock: Level and Tips[1785:46103] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/0E8F48D7-66B8-42B5-A080-EB29C34B075F/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 18:24:31.963 Stock: Level and Tips[2073:55455] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/F9AEB62B-06B4-4E28-9A33-07719C943B47/Library/Cookies/Cookies.binarycookies
+2015-03-01 18:24:32.084 Stock: Level and Tips[2073:55455] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 18:24:32.084 Stock: Level and Tips[2073:55455] Multi-tasking -> Device: YES, App: YES
+2015-03-01 18:24:32.085 Stock: Level and Tips[2073:55455] Unlimited access to network resources
+2015-03-01 18:24:32.088 Stock: Level and Tips[2073:55455] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 18:24:32.510 Stock: Level and Tips[2073:55455] Resetting plugins due to page load.
+2015-03-01 18:24:32.663 Stock: Level and Tips[2073:55455] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/D5A7C419-3F26-4908-87D3-4E60415E25C4/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 19:00:42.219 Stock: Level and Tips[2376:67254] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/22C92C01-BD72-4262-BE1F-F71DE611A613/Library/Cookies/Cookies.binarycookies
+2015-03-01 19:00:42.359 Stock: Level and Tips[2376:67254] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 19:00:42.359 Stock: Level and Tips[2376:67254] Multi-tasking -> Device: YES, App: YES
+2015-03-01 19:00:42.361 Stock: Level and Tips[2376:67254] Unlimited access to network resources
+2015-03-01 19:00:42.364 Stock: Level and Tips[2376:67254] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 19:00:42.824 Stock: Level and Tips[2376:67254] Resetting plugins due to page load.
+2015-03-01 19:00:42.959 Stock: Level and Tips[2376:67254] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/AE6D6656-C138-4075-8501-AB5228FAB026/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 19:07:15.625 Stock: Level and Tips[2589:70055] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/D5A287CF-D7EC-4539-BA6B-AF37674AE1A8/Library/Cookies/Cookies.binarycookies
+2015-03-01 19:07:15.719 Stock: Level and Tips[2589:70055] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 19:07:15.720 Stock: Level and Tips[2589:70055] Multi-tasking -> Device: YES, App: YES
+2015-03-01 19:07:15.721 Stock: Level and Tips[2589:70055] Unlimited access to network resources
+2015-03-01 19:07:15.724 Stock: Level and Tips[2589:70055] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 19:07:16.101 Stock: Level and Tips[2589:70055] Resetting plugins due to page load.
+2015-03-01 19:07:16.191 Stock: Level and Tips[2589:70055] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/24FEBA3F-93E2-42AD-AF43-6E512CCB6C10/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 19:11:50.791 Stock: Level and Tips[2797:72058] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/2EB741C6-8280-4A02-9298-C16418D4375C/Library/Cookies/Cookies.binarycookies
+2015-03-01 19:11:50.886 Stock: Level and Tips[2797:72058] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 19:11:50.887 Stock: Level and Tips[2797:72058] Multi-tasking -> Device: YES, App: YES
+2015-03-01 19:11:50.888 Stock: Level and Tips[2797:72058] Unlimited access to network resources
+2015-03-01 19:11:50.891 Stock: Level and Tips[2797:72058] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 19:11:51.252 Stock: Level and Tips[2797:72058] Resetting plugins due to page load.
+2015-03-01 19:11:51.371 Stock: Level and Tips[2797:72058] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/F229B14C-3C06-4EDD-B1F4-5D534D662CE4/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 19:18:07.452 Stock: Level and Tips[3008:74385] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/C018A3E1-F5E1-4BA0-9E88-33457A05155C/Library/Cookies/Cookies.binarycookies
+2015-03-01 19:18:07.601 Stock: Level and Tips[3008:74385] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 19:18:07.602 Stock: Level and Tips[3008:74385] Multi-tasking -> Device: YES, App: YES
+2015-03-01 19:18:07.603 Stock: Level and Tips[3008:74385] Unlimited access to network resources
+2015-03-01 19:18:07.606 Stock: Level and Tips[3008:74385] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 19:18:08.020 Stock: Level and Tips[3008:74385] Resetting plugins due to page load.
+2015-03-01 19:18:08.146 Stock: Level and Tips[3008:74385] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/2E38FC73-83E6-4BFD-9202-7DE82D14C0AE/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 19:31:03.329 Stock: Level and Tips[3278:80177] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/04B26084-1BF8-4085-9186-DC1A8EE31CFC/Library/Cookies/Cookies.binarycookies
+2015-03-01 19:31:03.469 Stock: Level and Tips[3278:80177] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 19:31:03.470 Stock: Level and Tips[3278:80177] Multi-tasking -> Device: YES, App: YES
+2015-03-01 19:31:03.471 Stock: Level and Tips[3278:80177] Unlimited access to network resources
+2015-03-01 19:31:03.474 Stock: Level and Tips[3278:80177] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 19:31:03.805 Stock: Level and Tips[3278:80177] Resetting plugins due to page load.
+2015-03-01 19:31:03.907 Stock: Level and Tips[3278:80177] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/FF310892-A365-412D-A8C0-5FF9A30602A4/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 19:32:42.996 Stock: Level and Tips[3278:80177] Resetting plugins due to page load.
+2015-03-01 19:32:43.186 Stock: Level and Tips[3278:80177] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/FF310892-A365-412D-A8C0-5FF9A30602A4/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 19:58:24.674 Stock: Level and Tips[3529:87927] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/88877F32-717E-4668-8403-8990E43F27C4/Library/Cookies/Cookies.binarycookies
+2015-03-01 19:58:24.778 Stock: Level and Tips[3529:87927] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 19:58:24.778 Stock: Level and Tips[3529:87927] Multi-tasking -> Device: YES, App: YES
+2015-03-01 19:58:24.779 Stock: Level and Tips[3529:87927] Unlimited access to network resources
+2015-03-01 19:58:24.782 Stock: Level and Tips[3529:87927] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 19:58:25.166 Stock: Level and Tips[3529:87927] Resetting plugins due to page load.
+2015-03-01 19:58:25.275 Stock: Level and Tips[3529:87927] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/3DBC84EA-2764-49EA-9938-FC227ADBA04D/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 19:59:20.070 Stock: Level and Tips[3917:88866] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/619F1A3B-0ECF-482E-87CD-4097F3371D86/Library/Cookies/Cookies.binarycookies
+2015-03-01 19:59:20.173 Stock: Level and Tips[3917:88866] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 19:59:20.174 Stock: Level and Tips[3917:88866] Multi-tasking -> Device: YES, App: YES
+2015-03-01 19:59:20.175 Stock: Level and Tips[3917:88866] Unlimited access to network resources
+2015-03-01 19:59:20.178 Stock: Level and Tips[3917:88866] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 19:59:20.522 Stock: Level and Tips[3917:88866] Resetting plugins due to page load.
+2015-03-01 19:59:20.634 Stock: Level and Tips[3917:88866] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/DAEB9DE0-8E70-4C52-93A3-FBD596F4F1FF/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 20:00:13.488 Stock: Level and Tips[4123:89650] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/D6DE747D-194A-4E11-8DAB-DCA77EB80474/Library/Cookies/Cookies.binarycookies
+2015-03-01 20:00:13.599 Stock: Level and Tips[4123:89650] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 20:00:13.599 Stock: Level and Tips[4123:89650] Multi-tasking -> Device: YES, App: YES
+2015-03-01 20:00:13.601 Stock: Level and Tips[4123:89650] Unlimited access to network resources
+2015-03-01 20:00:13.604 Stock: Level and Tips[4123:89650] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 20:00:13.955 Stock: Level and Tips[4123:89650] Resetting plugins due to page load.
+2015-03-01 20:00:14.059 Stock: Level and Tips[4123:89650] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/D96F3DA0-70E5-42E4-977F-B740A6258C4C/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 20:16:48.422 Stock: Level and Tips[4380:96650] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/FCE8734A-AADA-46A2-9802-0E4CA7BE7578/Library/Cookies/Cookies.binarycookies
+2015-03-01 20:16:48.554 Stock: Level and Tips[4380:96650] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 20:16:48.555 Stock: Level and Tips[4380:96650] Multi-tasking -> Device: YES, App: YES
+2015-03-01 20:16:48.556 Stock: Level and Tips[4380:96650] Unlimited access to network resources
+2015-03-01 20:16:48.559 Stock: Level and Tips[4380:96650] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 20:16:48.997 Stock: Level and Tips[4380:96650] Resetting plugins due to page load.
+2015-03-01 20:16:49.201 Stock: Level and Tips[4380:96650] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/79B4C1BC-E8CE-4F98-A4CB-1EC44FCCE922/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 20:18:26.264 Stock: Level and Tips[4597:97855] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/7F3A676C-3B53-4F63-A798-1D92545593B9/Library/Cookies/Cookies.binarycookies
+2015-03-01 20:18:26.386 Stock: Level and Tips[4597:97855] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 20:18:26.387 Stock: Level and Tips[4597:97855] Multi-tasking -> Device: YES, App: YES
+2015-03-01 20:18:26.389 Stock: Level and Tips[4597:97855] Unlimited access to network resources
+2015-03-01 20:18:26.392 Stock: Level and Tips[4597:97855] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 20:18:26.760 Stock: Level and Tips[4597:97855] Resetting plugins due to page load.
+2015-03-01 20:18:26.876 Stock: Level and Tips[4597:97855] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/BE388F8F-0B60-4D2B-AB9F-EE110C5522B8/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 20:38:32.805 Stock: Level and Tips[4842:102230] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/A9D49495-4EB8-4691-89C4-A1E7D6DEED2A/Library/Cookies/Cookies.binarycookies
+2015-03-01 20:38:32.956 Stock: Level and Tips[4842:102230] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 20:38:32.957 Stock: Level and Tips[4842:102230] Multi-tasking -> Device: YES, App: YES
+2015-03-01 20:38:32.958 Stock: Level and Tips[4842:102230] Unlimited access to network resources
+2015-03-01 20:38:32.961 Stock: Level and Tips[4842:102230] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 20:38:33.358 Stock: Level and Tips[4842:102230] Resetting plugins due to page load.
+2015-03-01 20:38:33.473 Stock: Level and Tips[4842:102230] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/A4193E3A-C5A3-4A2E-B8CA-5781210A9CC7/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 20:39:25.301 Stock: Level and Tips[5056:103024] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/12962651-D3F1-418D-B417-468B4008DA43/Library/Cookies/Cookies.binarycookies
+2015-03-01 20:39:25.396 Stock: Level and Tips[5056:103024] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 20:39:25.396 Stock: Level and Tips[5056:103024] Multi-tasking -> Device: YES, App: YES
+2015-03-01 20:39:25.397 Stock: Level and Tips[5056:103024] Unlimited access to network resources
+2015-03-01 20:39:25.400 Stock: Level and Tips[5056:103024] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 20:39:25.754 Stock: Level and Tips[5056:103024] Resetting plugins due to page load.
+2015-03-01 20:39:25.873 Stock: Level and Tips[5056:103024] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/CCEA6FB6-C41A-48C6-BF21-15F47F0105D6/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 20:42:53.124 Stock: Level and Tips[5056:103024] Resetting plugins due to page load.
+2015-03-01 20:42:53.295 Stock: Level and Tips[5056:103024] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/CCEA6FB6-C41A-48C6-BF21-15F47F0105D6/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 20:42:53.460 Stock: Level and Tips[5056:103024] Resetting plugins due to page load.
+2015-03-01 20:42:53.695 Stock: Level and Tips[5056:103024] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/CCEA6FB6-C41A-48C6-BF21-15F47F0105D6/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 20:47:19.413 Stock: Level and Tips[5281:105645] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/739A20F8-50AB-453B-BB24-856DCE5A557D/Library/Cookies/Cookies.binarycookies
+2015-03-01 20:47:19.508 Stock: Level and Tips[5281:105645] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 20:47:19.509 Stock: Level and Tips[5281:105645] Multi-tasking -> Device: YES, App: YES
+2015-03-01 20:47:19.510 Stock: Level and Tips[5281:105645] Unlimited access to network resources
+2015-03-01 20:47:19.513 Stock: Level and Tips[5281:105645] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 20:47:19.864 Stock: Level and Tips[5281:105645] Resetting plugins due to page load.
+2015-03-01 20:47:19.995 Stock: Level and Tips[5281:105645] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/4AAF8AB3-1EB4-4BE1-A596-7D90ABC3F80E/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 21:18:21.741 Stock: Level and Tips[5541:113914] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/6292093E-21F2-49F4-B72E-BB1652121E35/Library/Cookies/Cookies.binarycookies
+2015-03-01 21:18:21.825 Stock: Level and Tips[5541:113914] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 21:18:21.826 Stock: Level and Tips[5541:113914] Multi-tasking -> Device: YES, App: YES
+2015-03-01 21:18:21.827 Stock: Level and Tips[5541:113914] Unlimited access to network resources
+2015-03-01 21:18:21.830 Stock: Level and Tips[5541:113914] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 21:18:22.190 Stock: Level and Tips[5541:113914] Resetting plugins due to page load.
+2015-03-01 21:18:22.310 Stock: Level and Tips[5541:113914] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/81E38746-F0F1-4491-B416-944C34DAB1FC/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 21:45:27.080 Stock: Level and Tips[5804:120385] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/712818AF-DE2A-4E78-9985-2E7A7B2A3BE9/Library/Cookies/Cookies.binarycookies
+2015-03-01 21:45:27.225 Stock: Level and Tips[5804:120385] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 21:45:27.226 Stock: Level and Tips[5804:120385] Multi-tasking -> Device: YES, App: YES
+2015-03-01 21:45:27.228 Stock: Level and Tips[5804:120385] Unlimited access to network resources
+2015-03-01 21:45:27.231 Stock: Level and Tips[5804:120385] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 21:45:27.554 Stock: Level and Tips[5804:120385] Resetting plugins due to page load.
+2015-03-01 21:45:27.681 Stock: Level and Tips[5804:120385] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/56A47891-210F-4A4E-91BC-EE976AD8D560/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 22:00:39.513 Stock: Level and Tips[6066:126544] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/CD5A9813-434F-4099-B231-DF5178C7CADF/Library/Cookies/Cookies.binarycookies
+2015-03-01 22:00:39.653 Stock: Level and Tips[6066:126544] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 22:00:39.654 Stock: Level and Tips[6066:126544] Multi-tasking -> Device: YES, App: YES
+2015-03-01 22:00:39.657 Stock: Level and Tips[6066:126544] Unlimited access to network resources
+2015-03-01 22:00:39.661 Stock: Level and Tips[6066:126544] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 22:00:39.999 Stock: Level and Tips[6066:126544] Resetting plugins due to page load.
+2015-03-01 22:00:40.098 Stock: Level and Tips[6066:126544] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/A8383BCD-3E3C-4146-832E-7B27B3997882/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 22:01:44.003 Stock: Level and Tips[6280:127271] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/75264FCC-351A-4E93-89DD-4EA6624AAF39/Library/Cookies/Cookies.binarycookies
+2015-03-01 22:01:44.145 Stock: Level and Tips[6280:127271] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 22:01:44.146 Stock: Level and Tips[6280:127271] Multi-tasking -> Device: YES, App: YES
+2015-03-01 22:01:44.148 Stock: Level and Tips[6280:127271] Unlimited access to network resources
+2015-03-01 22:01:44.153 Stock: Level and Tips[6280:127271] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 22:01:44.472 Stock: Level and Tips[6280:127271] Resetting plugins due to page load.
+2015-03-01 22:01:44.580 Stock: Level and Tips[6280:127271] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/5DEF1D7A-425B-4573-BBB2-78289E02ED08/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 22:03:01.952 Stock: Level and Tips[6496:128105] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/2C50D900-E5C7-4B6A-8E50-61FD391510D0/Library/Cookies/Cookies.binarycookies
+2015-03-01 22:03:02.096 Stock: Level and Tips[6496:128105] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 22:03:02.097 Stock: Level and Tips[6496:128105] Multi-tasking -> Device: YES, App: YES
+2015-03-01 22:03:02.099 Stock: Level and Tips[6496:128105] Unlimited access to network resources
+2015-03-01 22:03:02.103 Stock: Level and Tips[6496:128105] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 22:03:02.449 Stock: Level and Tips[6496:128105] Resetting plugins due to page load.
+2015-03-01 22:03:02.626 Stock: Level and Tips[6496:128105] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/BFF1131C-F2E1-4183-B995-93C2C985A5B3/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 22:11:36.885 Stock: Level and Tips[6720:131049] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/554DAC0A-2887-4A77-8A18-D8442DF263EB/Library/Cookies/Cookies.binarycookies
+2015-03-01 22:11:37.020 Stock: Level and Tips[6720:131049] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 22:11:37.020 Stock: Level and Tips[6720:131049] Multi-tasking -> Device: YES, App: YES
+2015-03-01 22:11:37.022 Stock: Level and Tips[6720:131049] Unlimited access to network resources
+2015-03-01 22:11:37.025 Stock: Level and Tips[6720:131049] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 22:11:37.496 Stock: Level and Tips[6720:131049] Resetting plugins due to page load.
+2015-03-01 22:11:37.623 Stock: Level and Tips[6720:131049] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/7F56DC98-EAF0-43EA-8326-5AC9C901B5A5/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-01 22:18:49.233 Stock: Level and Tips[6944:133452] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/2FF928CF-DDA3-469A-8989-7F884A54F760/Library/Cookies/Cookies.binarycookies
+2015-03-01 22:18:49.372 Stock: Level and Tips[6944:133452] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-01 22:18:49.373 Stock: Level and Tips[6944:133452] Multi-tasking -> Device: YES, App: YES
+2015-03-01 22:18:49.374 Stock: Level and Tips[6944:133452] Unlimited access to network resources
+2015-03-01 22:18:49.377 Stock: Level and Tips[6944:133452] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-01 22:18:49.689 Stock: Level and Tips[6944:133452] Resetting plugins due to page load.
+2015-03-01 22:18:49.781 Stock: Level and Tips[6944:133452] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/0BDA478B-B722-4CF4-ABD4-A04321222C4A/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 08:53:04.122 Stock: Level and Tips[735:17064] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/7E590F0E-98D8-453F-A911-10EFF930E9BC/Library/Cookies/Cookies.binarycookies
+2015-03-02 08:53:04.465 Stock: Level and Tips[735:17064] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 08:53:04.466 Stock: Level and Tips[735:17064] Multi-tasking -> Device: YES, App: YES
+2015-03-02 08:53:04.489 Stock: Level and Tips[735:17064] Unlimited access to network resources
+2015-03-02 08:53:04.503 Stock: Level and Tips[735:17064] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 08:53:05.326 Stock: Level and Tips[735:17064] Resetting plugins due to page load.
+2015-03-02 08:53:05.608 Stock: Level and Tips[735:17064] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/9A06D3B9-1EEE-4E93-833F-41A9E52B275A/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 08:53:25.029 Stock: Level and Tips[735:17064] Resetting plugins due to page load.
+2015-03-02 08:53:25.178 Stock: Level and Tips[735:17064] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/9A06D3B9-1EEE-4E93-833F-41A9E52B275A/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 08:53:46.171 Stock: Level and Tips[735:17064] Resetting plugins due to page load.
+2015-03-02 08:53:46.304 Stock: Level and Tips[735:17064] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/9A06D3B9-1EEE-4E93-833F-41A9E52B275A/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 08:54:27.956 Stock: Level and Tips[952:17916] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/5C75A2BB-B78B-4B92-8CD4-891028628BEC/Library/Cookies/Cookies.binarycookies
+2015-03-02 08:54:28.081 Stock: Level and Tips[952:17916] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 08:54:28.082 Stock: Level and Tips[952:17916] Multi-tasking -> Device: YES, App: YES
+2015-03-02 08:54:28.083 Stock: Level and Tips[952:17916] Unlimited access to network resources
+2015-03-02 08:54:28.087 Stock: Level and Tips[952:17916] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 08:54:28.388 Stock: Level and Tips[952:17916] Resetting plugins due to page load.
+2015-03-02 08:54:28.488 Stock: Level and Tips[952:17916] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/E003C984-2F9B-4544-8A63-67338F765213/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 08:56:27.736 Stock: Level and Tips[952:17916] Resetting plugins due to page load.
+2015-03-02 08:56:27.886 Stock: Level and Tips[952:17916] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/E003C984-2F9B-4544-8A63-67338F765213/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:32:19.984 Stock: Level and Tips[1781:28365] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/35A54C67-A6A1-47FA-9AB4-1159ABD91F1E/Library/Cookies/Cookies.binarycookies
+2015-03-02 09:32:20.081 Stock: Level and Tips[1781:28365] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 09:32:20.082 Stock: Level and Tips[1781:28365] Multi-tasking -> Device: YES, App: YES
+2015-03-02 09:32:20.083 Stock: Level and Tips[1781:28365] Unlimited access to network resources
+2015-03-02 09:32:20.086 Stock: Level and Tips[1781:28365] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 09:32:20.389 Stock: Level and Tips[1781:28365] Resetting plugins due to page load.
+2015-03-02 09:32:20.482 Stock: Level and Tips[1781:28365] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/A34BEFB3-17ED-4D35-84EF-C354E79950E8/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:33:17.841 Stock: Level and Tips[1781:28365] Resetting plugins due to page load.
+2015-03-02 09:33:18.010 Stock: Level and Tips[1781:28365] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/A34BEFB3-17ED-4D35-84EF-C354E79950E8/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:33:20.607 Stock: Level and Tips[1781:28365] Resetting plugins due to page load.
+2015-03-02 09:33:20.766 Stock: Level and Tips[1781:28365] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/A34BEFB3-17ED-4D35-84EF-C354E79950E8/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:34:40.465 Stock: Level and Tips[1996:29407] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/31188458-F693-4F23-8E14-D265B77655D4/Library/Cookies/Cookies.binarycookies
+2015-03-02 09:34:40.613 Stock: Level and Tips[1996:29407] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 09:34:40.613 Stock: Level and Tips[1996:29407] Multi-tasking -> Device: YES, App: YES
+2015-03-02 09:34:40.614 Stock: Level and Tips[1996:29407] Unlimited access to network resources
+2015-03-02 09:34:40.618 Stock: Level and Tips[1996:29407] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 09:34:40.927 Stock: Level and Tips[1996:29407] Resetting plugins due to page load.
+2015-03-02 09:34:41.037 Stock: Level and Tips[1996:29407] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/3BDB63AF-0F29-4D0E-B6F0-D74262580027/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:35:28.149 Stock: Level and Tips[2211:30005] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/CCD3275E-0A9F-41DA-93FB-8CB9A900EC0C/Library/Cookies/Cookies.binarycookies
+2015-03-02 09:35:28.276 Stock: Level and Tips[2211:30005] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 09:35:28.277 Stock: Level and Tips[2211:30005] Multi-tasking -> Device: YES, App: YES
+2015-03-02 09:35:28.278 Stock: Level and Tips[2211:30005] Unlimited access to network resources
+2015-03-02 09:35:28.281 Stock: Level and Tips[2211:30005] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 09:35:28.649 Stock: Level and Tips[2211:30005] Resetting plugins due to page load.
+2015-03-02 09:35:28.755 Stock: Level and Tips[2211:30005] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/911C16EF-D297-49A2-82B3-BA573275C7CC/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:37:06.923 Stock: Level and Tips[2211:30005] Resetting plugins due to page load.
+2015-03-02 09:37:07.092 Stock: Level and Tips[2211:30005] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/911C16EF-D297-49A2-82B3-BA573275C7CC/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:37:09.074 Stock: Level and Tips[2211:30005] Resetting plugins due to page load.
+2015-03-02 09:37:09.249 Stock: Level and Tips[2211:30005] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/911C16EF-D297-49A2-82B3-BA573275C7CC/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:37:28.586 Stock: Level and Tips[2211:30005] Resetting plugins due to page load.
+2015-03-02 09:37:28.758 Stock: Level and Tips[2211:30005] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/911C16EF-D297-49A2-82B3-BA573275C7CC/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:41:24.174 Stock: Level and Tips[2429:31773] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/B6711B5B-2655-448C-A37F-499B3DB41F54/Library/Cookies/Cookies.binarycookies
+2015-03-02 09:41:24.311 Stock: Level and Tips[2429:31773] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 09:41:24.312 Stock: Level and Tips[2429:31773] Multi-tasking -> Device: YES, App: YES
+2015-03-02 09:41:24.313 Stock: Level and Tips[2429:31773] Unlimited access to network resources
+2015-03-02 09:41:24.318 Stock: Level and Tips[2429:31773] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 09:41:24.627 Stock: Level and Tips[2429:31773] Resetting plugins due to page load.
+2015-03-02 09:41:24.733 Stock: Level and Tips[2429:31773] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/0F79203E-B83C-49EA-972A-EF0E8D365803/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:43:04.911 Stock: Level and Tips[2645:32600] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/C3947FE7-FC26-46B7-8F15-4986B52E03F5/Library/Cookies/Cookies.binarycookies
+2015-03-02 09:43:05.033 Stock: Level and Tips[2645:32600] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 09:43:05.033 Stock: Level and Tips[2645:32600] Multi-tasking -> Device: YES, App: YES
+2015-03-02 09:43:05.035 Stock: Level and Tips[2645:32600] Unlimited access to network resources
+2015-03-02 09:43:05.038 Stock: Level and Tips[2645:32600] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 09:43:05.350 Stock: Level and Tips[2645:32600] Resetting plugins due to page load.
+2015-03-02 09:43:05.463 Stock: Level and Tips[2645:32600] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/97A028AC-702B-4E2C-A144-CDBD52396767/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:43:36.866 Stock: Level and Tips[2645:32600] Resetting plugins due to page load.
+2015-03-02 09:43:37.051 Stock: Level and Tips[2645:32600] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/97A028AC-702B-4E2C-A144-CDBD52396767/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:44:24.512 Stock: Level and Tips[2859:33367] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/54BEB1A3-DC0E-4C51-88DE-BBB28A42AA8A/Library/Cookies/Cookies.binarycookies
+2015-03-02 09:44:24.651 Stock: Level and Tips[2859:33367] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 09:44:24.651 Stock: Level and Tips[2859:33367] Multi-tasking -> Device: YES, App: YES
+2015-03-02 09:44:24.652 Stock: Level and Tips[2859:33367] Unlimited access to network resources
+2015-03-02 09:44:24.658 Stock: Level and Tips[2859:33367] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 09:44:24.972 Stock: Level and Tips[2859:33367] Resetting plugins due to page load.
+2015-03-02 09:44:25.087 Stock: Level and Tips[2859:33367] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/85783378-6843-4684-BE7B-01F7A15555FC/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:44:50.072 Stock: Level and Tips[2859:33367] Resetting plugins due to page load.
+2015-03-02 09:44:50.250 Stock: Level and Tips[2859:33367] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/85783378-6843-4684-BE7B-01F7A15555FC/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:44:51.540 Stock: Level and Tips[2859:33367] Resetting plugins due to page load.
+2015-03-02 09:44:51.724 Stock: Level and Tips[2859:33367] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/85783378-6843-4684-BE7B-01F7A15555FC/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:44:52.632 Stock: Level and Tips[2859:33367] Resetting plugins due to page load.
+2015-03-02 09:44:52.826 Stock: Level and Tips[2859:33367] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/85783378-6843-4684-BE7B-01F7A15555FC/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:44:53.538 Stock: Level and Tips[2859:33367] Resetting plugins due to page load.
+2015-03-02 09:44:53.730 Stock: Level and Tips[2859:33367] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/85783378-6843-4684-BE7B-01F7A15555FC/Stock:%20Level%20and%20Tips.app/www/index.html
+2015-03-02 09:48:32.042 Stock: Level and Tips[3075:34688] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/1790B0F4-C3CB-48D0-BCCB-3BB60FF21519/Library/Cookies/Cookies.binarycookies
+2015-03-02 09:48:32.172 Stock: Level and Tips[3075:34688] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 09:48:32.173 Stock: Level and Tips[3075:34688] Multi-tasking -> Device: YES, App: YES
+2015-03-02 09:48:32.174 Stock: Level and Tips[3075:34688] Unlimited access to network resources
+2015-03-02 09:48:32.178 Stock: Level and Tips[3075:34688] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 09:48:32.492 Stock: Level and Tips[3075:34688] Resetting plugins due to page load.
+2015-03-02 09:48:32.627 Stock: Level and Tips[3075:34688] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/07CF792A-9A79-4B7A-9F43-3A5FF7E5A4A6/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 09:48:57.484 Stock: Level and Tips[3075:34688] Resetting plugins due to page load.
+2015-03-02 09:48:57.759 Stock: Level and Tips[3075:34688] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/07CF792A-9A79-4B7A-9F43-3A5FF7E5A4A6/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 09:50:06.925 Stock: Level and Tips[3075:34688] Resetting plugins due to page load.
+2015-03-02 09:50:07.175 Stock: Level and Tips[3075:34688] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/07CF792A-9A79-4B7A-9F43-3A5FF7E5A4A6/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 09:50:38.494 Stock: Level and Tips[3075:34688] Resetting plugins due to page load.
+2015-03-02 09:50:38.766 Stock: Level and Tips[3075:34688] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/07CF792A-9A79-4B7A-9F43-3A5FF7E5A4A6/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 09:52:41.797 Stock: Level and Tips[3075:34688] Resetting plugins due to page load.
+2015-03-02 09:52:42.059 Stock: Level and Tips[3075:34688] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/07CF792A-9A79-4B7A-9F43-3A5FF7E5A4A6/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 09:52:43.282 Stock: Level and Tips[3075:34688] Resetting plugins due to page load.
+2015-03-02 09:52:43.543 Stock: Level and Tips[3075:34688] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/07CF792A-9A79-4B7A-9F43-3A5FF7E5A4A6/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 09:56:35.627 Stock: Level and Tips[3075:34688] Resetting plugins due to page load.
+2015-03-02 09:56:35.900 Stock: Level and Tips[3075:34688] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/07CF792A-9A79-4B7A-9F43-3A5FF7E5A4A6/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 09:59:36.302 Stock: Level and Tips[3298:38031] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/4BB7D65C-D83A-403A-A58A-8824CF0F3DD0/Library/Cookies/Cookies.binarycookies
+2015-03-02 09:59:36.509 Stock: Level and Tips[3298:38031] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 09:59:36.510 Stock: Level and Tips[3298:38031] Multi-tasking -> Device: YES, App: YES
+2015-03-02 09:59:36.511 Stock: Level and Tips[3298:38031] Unlimited access to network resources
+2015-03-02 09:59:36.515 Stock: Level and Tips[3298:38031] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 09:59:36.842 Stock: Level and Tips[3298:38031] Resetting plugins due to page load.
+2015-03-02 09:59:36.968 Stock: Level and Tips[3298:38031] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/874C52DF-A02C-4541-825B-723D8C148F5D/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 10:09:12.944 Stock: Level and Tips[3570:41672] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/5D878265-E2F2-4FAE-A898-30B33570B7E6/Library/Cookies/Cookies.binarycookies
+2015-03-02 10:09:13.071 Stock: Level and Tips[3570:41672] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 10:09:13.072 Stock: Level and Tips[3570:41672] Multi-tasking -> Device: YES, App: YES
+2015-03-02 10:09:13.073 Stock: Level and Tips[3570:41672] Unlimited access to network resources
+2015-03-02 10:09:13.076 Stock: Level and Tips[3570:41672] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 10:09:13.427 Stock: Level and Tips[3570:41672] Resetting plugins due to page load.
+2015-03-02 10:09:13.555 Stock: Level and Tips[3570:41672] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/5E1DAEFF-2A3A-47B3-A90F-4CAEFD64A6B3/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 17:19:02.209 Stock: Level and Tips[3900:51254] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/6C26BB3C-4964-4510-A487-1F925411DEDC/Library/Cookies/Cookies.binarycookies
+2015-03-02 17:19:02.579 Stock: Level and Tips[3900:51254] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 17:19:02.580 Stock: Level and Tips[3900:51254] Multi-tasking -> Device: YES, App: YES
+2015-03-02 17:19:02.596 Stock: Level and Tips[3900:51254] Unlimited access to network resources
+2015-03-02 17:19:02.610 Stock: Level and Tips[3900:51254] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 17:19:03.518 Stock: Level and Tips[3900:51254] Resetting plugins due to page load.
+2015-03-02 17:19:03.807 Stock: Level and Tips[3900:51254] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/CA5FD2E5-D531-4542-9711-7AEFBB41E94A/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:13:51.951 Stock: Level and Tips[4205:64433] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/437DA78B-7F1D-4EB3-B68B-24A9C8AD295B/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:13:52.055 Stock: Level and Tips[4205:64433] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:13:52.055 Stock: Level and Tips[4205:64433] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:13:52.057 Stock: Level and Tips[4205:64433] Unlimited access to network resources
+2015-03-02 18:13:52.059 Stock: Level and Tips[4205:64433] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:13:52.492 Stock: Level and Tips[4205:64433] Resetting plugins due to page load.
+2015-03-02 18:13:52.650 Stock: Level and Tips[4205:64433] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/8905ECCD-FB31-4BFF-A15A-2B78DD7CC6FF/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:17:38.553 Stock: Level and Tips[4419:65973] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/BE94CAA2-9C63-4970-9BCC-5786F4A25567/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:17:38.688 Stock: Level and Tips[4419:65973] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:17:38.688 Stock: Level and Tips[4419:65973] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:17:38.690 Stock: Level and Tips[4419:65973] Unlimited access to network resources
+2015-03-02 18:17:38.696 Stock: Level and Tips[4419:65973] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:17:39.005 Stock: Level and Tips[4419:65973] Resetting plugins due to page load.
+2015-03-02 18:17:39.133 Stock: Level and Tips[4419:65973] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/E2C1CB37-63D4-4492-88E8-46986298D95D/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:20:56.683 Stock: Level and Tips[4640:67555] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/26C7096F-5447-4E75-A924-2F3248072563/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:20:56.825 Stock: Level and Tips[4640:67555] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:20:56.826 Stock: Level and Tips[4640:67555] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:20:56.828 Stock: Level and Tips[4640:67555] Unlimited access to network resources
+2015-03-02 18:20:56.831 Stock: Level and Tips[4640:67555] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:20:57.149 Stock: Level and Tips[4640:67555] Resetting plugins due to page load.
+2015-03-02 18:20:57.272 Stock: Level and Tips[4640:67555] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/7792DF7E-2B66-4E82-B4FB-5F4A4C5D009D/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:23:18.615 Stock: Level and Tips[4856:68793] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/CBEE2A73-4FD7-42D7-B9F2-056FA862A0B5/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:23:18.742 Stock: Level and Tips[4856:68793] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:23:18.743 Stock: Level and Tips[4856:68793] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:23:18.744 Stock: Level and Tips[4856:68793] Unlimited access to network resources
+2015-03-02 18:23:18.747 Stock: Level and Tips[4856:68793] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:23:19.066 Stock: Level and Tips[4856:68793] Resetting plugins due to page load.
+2015-03-02 18:23:19.185 Stock: Level and Tips[4856:68793] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/7BA9109A-6CBF-46A5-B5C4-67DFD6727955/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:36:36.025 Stock: Level and Tips[5078:72521] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/700B9090-F724-4999-82CE-B0C0CD8489C2/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:36:36.154 Stock: Level and Tips[5078:72521] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:36:36.154 Stock: Level and Tips[5078:72521] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:36:36.156 Stock: Level and Tips[5078:72521] Unlimited access to network resources
+2015-03-02 18:36:36.158 Stock: Level and Tips[5078:72521] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:36:36.476 Stock: Level and Tips[5078:72521] Resetting plugins due to page load.
+2015-03-02 18:36:36.607 Stock: Level and Tips[5078:72521] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/30C5B922-7441-407D-8B76-66B9F6683A19/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:40:36.830 Stock: Level and Tips[5298:74269] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/2BA77B6F-9D6D-41D1-91DE-C4AEB96701DE/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:40:36.949 Stock: Level and Tips[5298:74269] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:40:36.950 Stock: Level and Tips[5298:74269] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:40:36.951 Stock: Level and Tips[5298:74269] Unlimited access to network resources
+2015-03-02 18:40:36.955 Stock: Level and Tips[5298:74269] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:40:37.262 Stock: Level and Tips[5298:74269] Resetting plugins due to page load.
+2015-03-02 18:40:37.388 Stock: Level and Tips[5298:74269] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/F68E5D24-B8F7-4FF9-B029-867552D1D2F2/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:42:15.986 Stock: Level and Tips[5514:75186] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/9B13B311-C45D-4BBF-BCA8-C3BD67280575/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:42:16.120 Stock: Level and Tips[5514:75186] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:42:16.120 Stock: Level and Tips[5514:75186] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:42:16.123 Stock: Level and Tips[5514:75186] Unlimited access to network resources
+2015-03-02 18:42:16.127 Stock: Level and Tips[5514:75186] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:42:16.438 Stock: Level and Tips[5514:75186] Resetting plugins due to page load.
+2015-03-02 18:42:16.574 Stock: Level and Tips[5514:75186] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/6DE9F9D9-C9FA-4C38-B959-86673D3A47F6/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:46:52.014 Stock: Level and Tips[5747:77499] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/B2BE4DD8-974C-4948-B2A5-EA3C093BB9BE/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:46:52.141 Stock: Level and Tips[5747:77499] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:46:52.141 Stock: Level and Tips[5747:77499] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:46:52.142 Stock: Level and Tips[5747:77499] Unlimited access to network resources
+2015-03-02 18:46:52.146 Stock: Level and Tips[5747:77499] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:46:52.458 Stock: Level and Tips[5747:77499] Resetting plugins due to page load.
+2015-03-02 18:46:52.586 Stock: Level and Tips[5747:77499] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/6821B279-A161-476E-8B30-91597ACA942C/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:49:28.681 Stock: Level and Tips[5965:78593] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/30674F42-85C9-4B2E-8474-C71E1C47BEC0/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:49:28.818 Stock: Level and Tips[5965:78593] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:49:28.818 Stock: Level and Tips[5965:78593] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:49:28.820 Stock: Level and Tips[5965:78593] Unlimited access to network resources
+2015-03-02 18:49:28.823 Stock: Level and Tips[5965:78593] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:49:29.132 Stock: Level and Tips[5965:78593] Resetting plugins due to page load.
+2015-03-02 18:49:29.262 Stock: Level and Tips[5965:78593] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/8D8C882C-6E1F-4756-A102-8E5D78F1B2AF/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:51:07.010 Stock: Level and Tips[6181:79533] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/3D5551F7-95B1-4B28-83DD-E3CE6E2551D0/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:51:07.179 Stock: Level and Tips[6181:79533] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:51:07.179 Stock: Level and Tips[6181:79533] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:51:07.181 Stock: Level and Tips[6181:79533] Unlimited access to network resources
+2015-03-02 18:51:07.184 Stock: Level and Tips[6181:79533] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:51:07.494 Stock: Level and Tips[6181:79533] Resetting plugins due to page load.
+2015-03-02 18:51:07.621 Stock: Level and Tips[6181:79533] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/DE099230-83C9-497B-AC8E-98AA52EC44AD/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:56:42.644 Stock: Level and Tips[6402:81414] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/5B53C48C-F696-4688-8F90-585B33B8C085/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:56:42.779 Stock: Level and Tips[6402:81414] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:56:42.779 Stock: Level and Tips[6402:81414] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:56:42.781 Stock: Level and Tips[6402:81414] Unlimited access to network resources
+2015-03-02 18:56:42.784 Stock: Level and Tips[6402:81414] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:56:43.104 Stock: Level and Tips[6402:81414] Resetting plugins due to page load.
+2015-03-02 18:56:43.222 Stock: Level and Tips[6402:81414] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/186E59DC-2830-4387-8FA7-11874A693AD0/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:57:11.032 Stock: Level and Tips[6616:82019] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/B9FE9FAE-3E53-4B55-A6B7-D72F78CA38C5/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:57:11.159 Stock: Level and Tips[6616:82019] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:57:11.160 Stock: Level and Tips[6616:82019] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:57:11.161 Stock: Level and Tips[6616:82019] Unlimited access to network resources
+2015-03-02 18:57:11.165 Stock: Level and Tips[6616:82019] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:57:11.481 Stock: Level and Tips[6616:82019] Resetting plugins due to page load.
+2015-03-02 18:57:11.596 Stock: Level and Tips[6616:82019] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/578F8278-5892-4B25-92D4-A6F9DE17619E/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:58:27.823 Stock: Level and Tips[6828:82691] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/2A57614B-606F-4352-A1DB-3217B63D754E/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:58:27.956 Stock: Level and Tips[6828:82691] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:58:27.956 Stock: Level and Tips[6828:82691] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:58:27.958 Stock: Level and Tips[6828:82691] Unlimited access to network resources
+2015-03-02 18:58:27.963 Stock: Level and Tips[6828:82691] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:58:28.285 Stock: Level and Tips[6828:82691] Resetting plugins due to page load.
+2015-03-02 18:58:28.406 Stock: Level and Tips[6828:82691] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/E104D7EF-6F10-47F8-AEBC-B0694CB1ACE3/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 18:59:07.161 Stock: Level and Tips[7043:83342] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/CEC21503-7721-48CB-80C9-34FFED9DB3E6/Library/Cookies/Cookies.binarycookies
+2015-03-02 18:59:07.303 Stock: Level and Tips[7043:83342] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 18:59:07.303 Stock: Level and Tips[7043:83342] Multi-tasking -> Device: YES, App: YES
+2015-03-02 18:59:07.305 Stock: Level and Tips[7043:83342] Unlimited access to network resources
+2015-03-02 18:59:07.309 Stock: Level and Tips[7043:83342] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 18:59:07.617 Stock: Level and Tips[7043:83342] Resetting plugins due to page load.
+2015-03-02 18:59:07.730 Stock: Level and Tips[7043:83342] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/AD981932-E059-4930-A6E9-24C12702813F/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 19:00:01.457 Stock: Level and Tips[7253:83947] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/240D367B-8E82-466A-9D87-6BEA03A92CF5/Library/Cookies/Cookies.binarycookies
+2015-03-02 19:00:01.598 Stock: Level and Tips[7253:83947] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 19:00:01.598 Stock: Level and Tips[7253:83947] Multi-tasking -> Device: YES, App: YES
+2015-03-02 19:00:01.600 Stock: Level and Tips[7253:83947] Unlimited access to network resources
+2015-03-02 19:00:01.604 Stock: Level and Tips[7253:83947] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 19:00:01.971 Stock: Level and Tips[7253:83947] Resetting plugins due to page load.
+2015-03-02 19:00:02.108 Stock: Level and Tips[7253:83947] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/E6ABB637-B1CC-4383-87A5-9C3592438337/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 19:00:44.352 Stock: Level and Tips[7463:84510] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/0B207CB1-A9B7-461D-90D2-8597D2143B25/Library/Cookies/Cookies.binarycookies
+2015-03-02 19:00:44.490 Stock: Level and Tips[7463:84510] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 19:00:44.490 Stock: Level and Tips[7463:84510] Multi-tasking -> Device: YES, App: YES
+2015-03-02 19:00:44.492 Stock: Level and Tips[7463:84510] Unlimited access to network resources
+2015-03-02 19:00:44.496 Stock: Level and Tips[7463:84510] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 19:00:44.809 Stock: Level and Tips[7463:84510] Resetting plugins due to page load.
+2015-03-02 19:00:44.922 Stock: Level and Tips[7463:84510] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/215736C3-FD5A-4128-9B7A-D24E7CE3B63C/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 19:01:53.033 Stock: Level and Tips[7673:85230] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/839B3F98-65C2-4453-AECB-5D36C7C689B4/Library/Cookies/Cookies.binarycookies
+2015-03-02 19:01:53.161 Stock: Level and Tips[7673:85230] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 19:01:53.162 Stock: Level and Tips[7673:85230] Multi-tasking -> Device: YES, App: YES
+2015-03-02 19:01:53.163 Stock: Level and Tips[7673:85230] Unlimited access to network resources
+2015-03-02 19:01:53.167 Stock: Level and Tips[7673:85230] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 19:01:53.484 Stock: Level and Tips[7673:85230] Resetting plugins due to page load.
+2015-03-02 19:01:53.603 Stock: Level and Tips[7673:85230] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/CBD0BF98-9D18-4F7C-93EB-977101B2A76A/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:08:35.744 Stock: Level and Tips[7919:87779] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/D5BB81E5-17A2-477F-90BC-B55028D899D3/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:08:35.885 Stock: Level and Tips[7919:87779] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:08:35.885 Stock: Level and Tips[7919:87779] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:08:35.887 Stock: Level and Tips[7919:87779] Unlimited access to network resources
+2015-03-02 20:08:35.891 Stock: Level and Tips[7919:87779] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:08:36.196 Stock: Level and Tips[7919:87779] Resetting plugins due to page load.
+2015-03-02 20:08:36.309 Stock: Level and Tips[7919:87779] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/5BFAA2FA-8085-44F3-804A-625708938FC4/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:09:10.240 Stock: Level and Tips[8133:88405] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/6C9E066D-3763-4076-B835-860021FCE818/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:09:10.368 Stock: Level and Tips[8133:88405] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:09:10.369 Stock: Level and Tips[8133:88405] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:09:10.370 Stock: Level and Tips[8133:88405] Unlimited access to network resources
+2015-03-02 20:09:10.375 Stock: Level and Tips[8133:88405] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:09:10.703 Stock: Level and Tips[8133:88405] Resetting plugins due to page load.
+2015-03-02 20:09:10.816 Stock: Level and Tips[8133:88405] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/27BCA950-F7EE-4B3C-984B-40321DBF777A/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:09:47.262 Stock: Level and Tips[8343:88962] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/27DF4542-77B5-4889-BAF5-F9FA8170966A/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:09:47.400 Stock: Level and Tips[8343:88962] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:09:47.401 Stock: Level and Tips[8343:88962] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:09:47.403 Stock: Level and Tips[8343:88962] Unlimited access to network resources
+2015-03-02 20:09:47.407 Stock: Level and Tips[8343:88962] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:09:47.724 Stock: Level and Tips[8343:88962] Resetting plugins due to page load.
+2015-03-02 20:09:47.837 Stock: Level and Tips[8343:88962] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/80A81411-8573-47C2-AC04-3A01D9B1F76D/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:10:56.554 Stock: Level and Tips[8555:89701] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/65B8608D-949E-4142-8C63-CBA00F5FE600/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:10:56.693 Stock: Level and Tips[8555:89701] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:10:56.693 Stock: Level and Tips[8555:89701] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:10:56.695 Stock: Level and Tips[8555:89701] Unlimited access to network resources
+2015-03-02 20:10:56.698 Stock: Level and Tips[8555:89701] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:10:56.998 Stock: Level and Tips[8555:89701] Resetting plugins due to page load.
+2015-03-02 20:10:57.108 Stock: Level and Tips[8555:89701] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/1F684E67-F16A-4BCF-9FFA-3B4A82609CEE/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:11:19.152 Stock: Level and Tips[8771:90220] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/0ED199FC-1078-4FC7-AA2A-AA6939180C1B/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:11:19.287 Stock: Level and Tips[8771:90220] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:11:19.288 Stock: Level and Tips[8771:90220] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:11:19.290 Stock: Level and Tips[8771:90220] Unlimited access to network resources
+2015-03-02 20:11:19.293 Stock: Level and Tips[8771:90220] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:11:19.614 Stock: Level and Tips[8771:90220] Resetting plugins due to page load.
+2015-03-02 20:11:19.727 Stock: Level and Tips[8771:90220] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/BAAD0FCF-8B18-4557-B31C-5FB3F6BB74F8/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:11:52.550 Stock: Level and Tips[8982:90795] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/A5874242-F44D-41A9-A42B-15DBD95B26B5/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:11:52.684 Stock: Level and Tips[8982:90795] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:11:52.685 Stock: Level and Tips[8982:90795] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:11:52.687 Stock: Level and Tips[8982:90795] Unlimited access to network resources
+2015-03-02 20:11:52.690 Stock: Level and Tips[8982:90795] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:11:53.012 Stock: Level and Tips[8982:90795] Resetting plugins due to page load.
+2015-03-02 20:11:53.123 Stock: Level and Tips[8982:90795] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/0989D8BF-0F53-4BB2-B99E-4F0A70FC6FA7/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:12:49.322 Stock: Level and Tips[9192:91393] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/A1900611-7FCA-474E-9BBD-C97AF0A56A01/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:12:49.457 Stock: Level and Tips[9192:91393] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:12:49.458 Stock: Level and Tips[9192:91393] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:12:49.459 Stock: Level and Tips[9192:91393] Unlimited access to network resources
+2015-03-02 20:12:49.464 Stock: Level and Tips[9192:91393] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:12:49.766 Stock: Level and Tips[9192:91393] Resetting plugins due to page load.
+2015-03-02 20:12:49.880 Stock: Level and Tips[9192:91393] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/5FEC896C-F209-4BB6-8137-87FDA65795FF/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:15:57.901 Stock: Level and Tips[9406:92795] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/FD6CB22C-5A26-49A1-80AB-517AC3247B1B/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:15:58.030 Stock: Level and Tips[9406:92795] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:15:58.031 Stock: Level and Tips[9406:92795] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:15:58.033 Stock: Level and Tips[9406:92795] Unlimited access to network resources
+2015-03-02 20:15:58.036 Stock: Level and Tips[9406:92795] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:15:58.360 Stock: Level and Tips[9406:92795] Resetting plugins due to page load.
+2015-03-02 20:15:58.476 Stock: Level and Tips[9406:92795] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/148E1B01-4B94-4242-A080-524CABB4FBD3/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:16:10.580 Stock: Level and Tips[9620:93242] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/C0D7611A-BE25-436D-A88D-40324FC3E068/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:16:10.719 Stock: Level and Tips[9620:93242] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:16:10.720 Stock: Level and Tips[9620:93242] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:16:10.721 Stock: Level and Tips[9620:93242] Unlimited access to network resources
+2015-03-02 20:16:10.724 Stock: Level and Tips[9620:93242] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:16:11.039 Stock: Level and Tips[9620:93242] Resetting plugins due to page load.
+2015-03-02 20:16:11.157 Stock: Level and Tips[9620:93242] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/2195B9E5-1E6E-4C05-A54F-1428D846A9AB/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:16:38.294 Stock: Level and Tips[9830:93738] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/0137D8D8-8F45-459B-BE76-A6690D1D397A/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:16:38.433 Stock: Level and Tips[9830:93738] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:16:38.433 Stock: Level and Tips[9830:93738] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:16:38.435 Stock: Level and Tips[9830:93738] Unlimited access to network resources
+2015-03-02 20:16:38.438 Stock: Level and Tips[9830:93738] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:16:38.753 Stock: Level and Tips[9830:93738] Resetting plugins due to page load.
+2015-03-02 20:16:38.868 Stock: Level and Tips[9830:93738] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/DE2C9CC4-1DC8-4873-BC94-51FDF3DF69AD/Stock:%20Level%20and%20Tips.app/www/index.html#/home
+2015-03-02 20:17:37.600 Stock: Level and Tips[10040:94396] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/1F0F1C46-F306-4DB1-9AF7-B1BA2B4FD646/Library/Cookies/Cookies.binarycookies
+2015-03-02 20:17:37.733 Stock: Level and Tips[10040:94396] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-02 20:17:37.733 Stock: Level and Tips[10040:94396] Multi-tasking -> Device: YES, App: YES
+2015-03-02 20:17:37.735 Stock: Level and Tips[10040:94396] Unlimited access to network resources
+2015-03-02 20:17:37.738 Stock: Level and Tips[10040:94396] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-02 20:17:38.055 Stock: Level and Tips[10040:94396] Resetting plugins due to page load.
+2015-03-02 20:17:38.171 Stock: Level and Tips[10040:94396] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/86A2AB10-8D1F-4C84-BBCB-E787AACAF5F7/Stock:%20Level%20and%20Tips.app/www/index.html#/home
