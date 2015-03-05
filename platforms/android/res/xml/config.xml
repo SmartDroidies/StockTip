@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1" id="com.smart.droid.stock.tip" ios-CFBundleVersion="0.0.1" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <name>Stock: Level and Tips</name>
+    <description>
+        This aop provides the Daily Nifty Spot Level and useful long term and medium term stock tips.
+    </description>
+    <author email="smartdroidies@gmail.com" href="http://smartdroidies.com">
+        SmartDroidies Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
