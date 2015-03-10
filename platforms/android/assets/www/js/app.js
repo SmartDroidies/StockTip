@@ -9,7 +9,7 @@ stockApp.config(['$routeProvider',
 				controller : 'HomeCtrl'
 			}).when('/spot', {
 				templateUrl : 'partials/spot.html',
-				controller : 'HomeCtrl'
+				controller : 'SpotCtrl'
 			}).when('/tips', {
 				templateUrl : 'partials/tips.html',
 				controller : 'HomeCtrl'

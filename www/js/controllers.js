@@ -18,3 +18,18 @@ stockControllers.controller('HomeCtrl', ['$scope',
   }]
 );
 
+// Controller to display Nifty Spot
+stockControllers.controller('SpotCtrl', ['$scope',
+  function($scope) {
+	//Show Spot Page
+	$scope.displaySpot = function () {    
+		$scope.status = "Display NIFTY Spot";
+	}; 
+
+	//Display Nifty Spot
+	$scope.displaySpot();
+  }]
+);
+
+
+
