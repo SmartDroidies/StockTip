@@ -1,9 +1,37 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="1" id="com.smart.droid.stock.tip" ios-CFBundleVersion="0.0.1" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="2" id="com.smart.droid.stock.tip" ios-CFBundleVersion="0.0.2" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
-    <name>Stock: Level and Tips</name>
+    <feature name="PushPlugin">
+        <param name="android-package" value="com.plugin.gcm.PushPlugin" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="AdmobPlugin">
+        <param name="android-package" value="com.admob.cordova.plugin.AdmobAdPlugin" />
+    </feature>
+    <feature name="SocialSharing">
+        <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+    </feature>
+    <feature name="EmailComposer">
+        <param name="android-package" value="de.appplant.cordova.emailcomposer.EmailComposer" />
+    </feature>
+    <icon density="mdpi" src="res/android/stock_mdpi.png" />
+    <icon density="hdpi" src="res/android/stock_hdpi.png" />
+    <icon density="xhdpi" src="res/android/stock_xhdpi.png" />
+    <name>Nifty Spot Level</name>
     <description>
-        This aop provides the Daily Nifty Spot Level and useful long term and medium term stock tips.
+        This App provides the Daily Nifty Spot Level and useful long term and medium term stock tips.
     </description>
     <author email="smartdroidies@gmail.com" href="http://smartdroidies.com">
         SmartDroidies Team
