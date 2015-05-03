@@ -42,6 +42,8 @@ E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\css\index.css \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\css\stock.css \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\image\menu.png \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\image\spinner.gif \
+E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\image\StoplossHit.png \
+E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\image\TargetAchieved.png \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\img\logo.png \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\js\angular \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\js\angular-local-storage \
@@ -55,6 +57,7 @@ E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\js\angular-translate 
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\js\app.js \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\js\bootstrap \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\js\controllers.js \
+E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\js\filters.js \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\js\index.js \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\js\iscroll \
 E:\WorkSpace\Cordova\StockTip\platforms\android\assets\www\js\jquery \

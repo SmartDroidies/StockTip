@@ -1,9 +1,36 @@
 <section id="main" class="content ui-page-active">
-	<article class="spot" ng-repeat="entry in tip | orderBy:'-_id' ">
-		<h3>TIP : {{entry.script}} - {{entry.ctime | date:'medium'}}</h3>
-		<div class="desc">Script - {{entry.script}}, Call - {{entry.call}}</div>
-		<div class="desc">Rate - {{entry.rate}}, Target - {{entry.tgt}}, SL - {{entry.sl}}</div>
-		<div class="desc">Duration  - {{entry.dur}} , {{entry.tip}}</div>
+	<article class="tip" ng-repeat="entry in tip | orderBy:'-_id' ">
+		<div class="section-head">
+			<div tip-desc></div>
+			<h3 class="sec-main-head">{{entry.call}} {{entry.script}} at {{entry.rate}}</h3>
+			<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>
+			<img id="img-tip-status" class="img-tip-status" src="image/TargetAchieved.png"/>
+		</div>	
+		<div class="tip-table">
+			<div class="row">
+				<div class="cell tip-label">Stock</div>	
+				<div class="cell tip-value">{{entry.call}} {{entry.script}}</div>	
+				<div class="cell tip-label">Duration</div>	
+				<div class="cell tip-value">{{entry.dur}}</div>	
+			</div>
+		</div>
+		<div class="tip-table">	
+			<div class="row">
+				<div class="cell tip-label">Curr Level</div>	
+				<div class="cell tip-value">{{entry.rate}}</div>	
+				<div class="cell tip-label">Target</div>	
+				<div class="cell tip-value">{{entry.tgt}}</div>	
+				<div class="cell tip-label">Stop Loss</div>	
+				<div class="cell tip-value">{{entry.sl}}</div>	
+			</div>
+		</div>	
+		<div class="tip-table">
+			<div class="row">
+				<div class="cell tip-value">{{entry.tip}}</div>	
+			</div>
+		</div>		
+		<!--div class="desc">Duration  - {{entry.dur}} </div>
+		<div class="desc">{{entry.tip}}</div-->
 	</article>
 	<div style="height: 50px"></div>
 </section>

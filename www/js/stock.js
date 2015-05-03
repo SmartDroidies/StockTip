@@ -200,8 +200,8 @@ function syncLocalAlert(file) {
 		if (!angular.isUndefined(data)) {
 			var localAlert =  window.localStorage.getItem(nifty_alert);
 			var localJSONAlert = JSON.parse(localAlert);
-			$.each(data.data, function(key, alert) {
-				//console.log(key + " - " + JSON.stringify(alert));
+			$.each(data.data, function(key, item) {
+				//console.log(key + " - " + JSON.stringify(item));
 				var newAlert = true;
 				_.find(localJSONAlert,function(rw, rwIdx) { 
 					if(rw._id == item._id) {
@@ -215,7 +215,7 @@ function syncLocalAlert(file) {
 				if(newAlert) {
 					//console.log("New Object for : " + key + " - " + JSON.stringify(alert));
 					//console.log("Array Size : " + _.size(localJSONAlert));
-					localJSONAlert.push(alert);
+					localJSONAlert.push(item);
 					//console.log("Modified Array Size : " + _.size(localJSONAlert));
 				} 
 			});

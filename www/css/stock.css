@@ -6,16 +6,15 @@ body, h1, h2, h3, h4, h5, h6  {
 /* Head Style */
 h3 {	
 	font-size : 18px;
-	text-decoration : bold;
 }
 
 article, header {
 	margin-top: -18px;
 }
 
-.body {
+html, body {
 	height : 100%;
-	overflow-y: scroll;
+	overflow : hidden;
 }
 
 .content  {
@@ -128,7 +127,7 @@ header h2 {
 }
 
 /* Nifty Section Styling */
-article.spot {
+article.spot, article.tip {
 	text-align: center;
 	padding: 0px;
 	background-color : #DCE4F3;
@@ -145,6 +144,7 @@ article.spot h3  {
 	border-radius: 5px 5px 0px 0px;
 	font-weight: bold;
 }
+
 
 article div.desc  {
 	padding: 5px 5px;
@@ -184,10 +184,72 @@ div.divider {
 	height :10px;
 }
 
-#spinner, #app-status-ul, #main, #menu{
+#app-status-ul, #main, #menu{
 	margin-top: 50px;
 }
 
+#spinner {
+	height : 100%;
+	display: block;
+	text-align: center;
+}
+
+img.spinner {
+	margin-top : 100px;
+}
+
 #app-status-ul {
-	display : visible;
+	display : none;
+}
+
+.section-head {
+	position:  relative;
+	background-color: #A2C0F7;
+	margin: auto;
+	padding: 5px 5px;
+	border-radius: 5px 5px 0px 0px;
+	font-weight: bold;
+}
+
+.sub-head {
+	font-size:  16px;
+	padding: 3px 3px;
+    margin: auto;	
+    text-align: left;
+}
+
+.sec-main-head {
+	font-weight: bold;
+	margin: auto;
+  	padding: 3px 3px;
+  	text-align: left;
+}
+
+.img-tip-status {
+	position: absolute;
+  	right: 5px;
+  	height: 50px;
+  	width: 50px;
+  	top: 5px;	
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	display: table-cell;
+	padding : 3px;
+}
+
+.tip-table {
+	width:  100%;
+}	
+
+.tip-label {
+	background-color: #DBD9D9;
+}	
+
+.tip-value {
+
 }

@@ -1,6 +1,6 @@
 'use strict';
 /* App Module */
-var stockApp = angular.module('stockApp', ['ngRoute', 'ngSanitize', 'ngTouch', 'stockControllers', 'stockServices', 'cacheService', 'LocalStorageModule', 'ng-iscroll']);
+var stockApp = angular.module('stockApp', ['ngRoute', 'ngSanitize', 'ngTouch', 'stockControllers', 'stockDirective', 'stockServices', 'cacheService', 'LocalStorageModule', 'ng-iscroll']);
 
 stockApp.config(['$routeProvider', 
 		function ($routeProvider) {
@@ -38,4 +38,11 @@ stockApp.config(['$routeProvider',
 //Local Storage Configuration	
 stockApp.config(function (localStorageServiceProvider) {
   localStorageServiceProvider.setPrefix('lsnsl');
+});
+
+
+stockApp.constant('config', {
+    appName: 'Nifty Spot Level',
+    appVersion: '0.0.0',
+	call: [{'B': 'Buy', 'S': 'Sell'}]
 });
