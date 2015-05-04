@@ -1,32 +1,34 @@
 <section id="main" class="content ui-page-active">
 	<article class="tip" ng-repeat="entry in tip | orderBy:'-_id' ">
 		<div class="section-head">
-			<div tip-desc></div>
-			<h3 class="sec-main-head">{{entry.call}} {{entry.script}} at {{entry.rate}}</h3>
+			<h3 class="sec-main-head">{{entry.call =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
 			<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>
-			<img id="img-tip-status" class="img-tip-status" src="image/TargetAchieved.png"/>
+			<!--img id="img-tip-status" class="img-tip-status" src="image/TargetAchieved.png"/-->
 		</div>	
-		<div class="tip-table">
+		<!--div class="tip-table">
 			<div class="row">
-				<div class="cell tip-label">Stock</div>	
-				<div class="cell tip-value">{{entry.call}} {{entry.script}}</div>	
-				<div class="cell tip-label">Duration</div>	
-				<div class="cell tip-value">{{entry.dur}}</div>	
+				<div class="cell tip-label" style="width : 20%">Stock</div>	
+				<div class="cell tip-value" style="width : 30%">{{entry.call}} {{entry.script}}</div>	
+				<div class="cell tip-label" style="width : 20%">Duration</div>	
+				<div class="cell tip-value" style="width : 30%">{{entry.dur}}</div>	
 			</div>
-		</div>
+		</div-->
 		<div class="tip-table">	
 			<div class="row">
-				<div class="cell tip-label">Curr Level</div>	
-				<div class="cell tip-value">{{entry.rate}}</div>	
-				<div class="cell tip-label">Target</div>	
-				<div class="cell tip-value">{{entry.tgt}}</div>	
-				<div class="cell tip-label">Stop Loss</div>	
-				<div class="cell tip-value">{{entry.sl}}</div>	
+				<!--div class="cell tip-label">Curr Level</div>	
+				<div class="cell tip-value">{{entry.rate}}</div-->	
+				<div class="cell tip-label">Target : {{entry.tgt}}</div>	
+				<div class="cell tip-label">Stop Loss : {{entry.sl}}</div>	
+			</div>
+		</div>	
+		<div class="tip-table">	
+			<div class="row">
+				<div class="cell tip-label">Duration : {{entry.dur}}</div>	
 			</div>
 		</div>	
 		<div class="tip-table">
 			<div class="row">
-				<div class="cell tip-value">{{entry.tip}}</div>	
+				<div class="cell italic-desc"><u>Note:</u> {{entry.tip}}</div>	
 			</div>
 		</div>		
 		<!--div class="desc">Duration  - {{entry.dur}} </div>

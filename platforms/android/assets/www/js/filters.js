@@ -3,8 +3,13 @@ var stockDirective = angular.module('stockDirective',  []);
 
 stockDirective.directive('tipDesc', function() {
 	return {
-		/* var _date = $filter('date')(new Date(input), 'MMM dd - HH:MM'); */
-		//template: 'Name: {{customer.name}} Address: {{customer.address}}'
-		template: '{{entry.call}} {{entry.script}} at {{entry.rate}}'
+		 template: 'Nothing' 
+		/*
+		if(entry.call == 'B') {
+			template: 'Buy {{entry.script}} at {{entry.rate}}'
+		} else {
+			template: 'Sell {{entry.script}} at {{entry.rate}}'
+		}
+		*/	
 	};
 });

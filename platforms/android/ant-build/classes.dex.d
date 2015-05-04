@@ -4,7 +4,7 @@ E:\WorkSpace\Cordova\StockTip\platforms\android\ant-build\classes\com\plugin\gcm
 E:\WorkSpace\Cordova\StockTip\platforms\android\ant-build\classes\com\plugin\gcm\PushHandlerActivity.class \
 E:\WorkSpace\Cordova\StockTip\platforms\android\ant-build\classes\com\plugin\gcm\PushPlugin.class \
 E:\WorkSpace\Cordova\StockTip\platforms\android\ant-build\classes\com\smart\droid\stock\tip\BuildConfig.class \
-E:\WorkSpace\Cordova\StockTip\platforms\android\ant-build\classes\com\smart\droid\stock\tip\CordovaApp.class \
+E:\WorkSpace\Cordova\StockTip\platforms\android\ant-build\classes\com\smart\droid\stock\tip\MainActivity.class \
 E:\WorkSpace\Cordova\StockTip\platforms\android\ant-build\classes\com\smart\droid\stock\tip\Manifest$permission.class \
 E:\WorkSpace\Cordova\StockTip\platforms\android\ant-build\classes\com\smart\droid\stock\tip\Manifest.class \
 E:\WorkSpace\Cordova\StockTip\platforms\android\ant-build\classes\com\smart\droid\stock\tip\R$attr.class \
