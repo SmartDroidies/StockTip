@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.smart.droid.stock.tip" version="0.0.3" android-versionCode="3" ios-CFBundleVersion="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.smart.droid.stock.tip" version="0.0.4" android-versionCode="4" ios-CFBundleVersion="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Nifty Spot Level</name>
     <description>
         This App provides the Daily Nifty Spot Level and useful long term and medium term stock tips.
