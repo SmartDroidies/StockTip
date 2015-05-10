@@ -205,7 +205,7 @@ function syncLocalAlert(file) {
 				var newAlert = true;
 				_.find(localJSONAlert,function(rw, rwIdx) { 
 					if(rw._id == item._id) {
-						localJSON[rwIdx] = item;
+						localJSONAlert[rwIdx] = item;
 						console.log("Replace Existing Object for : " + key); 
 						newAlert = false; 
 						return true;

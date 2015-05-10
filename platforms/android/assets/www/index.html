@@ -8,15 +8,17 @@
   <script type="text/javascript" src="js/angular/angular.min.js"></script>
   <script type="text/javascript" src="js/angular-route/angular-route.min.js"></script>
   <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
-  <script type="text/javascript" src="js/iscroll/iscroll.js"></script>
   <script type="text/javascript" src="js/angular-resource/angular-resource.min.js"></script>    
   <script type="text/javascript" src="js/angular-sanitize/angular-sanitize.min.js"></script>
   <script type="text/javascript" src="js/angular-touch/angular-touch.min.js"></script>
   <script type="text/javascript" src="js/angular-local-storage/angular-local-storage.min.js"></script>
-  <script type="text/javascript" src="js/ng-iScroll-master/ng-iscroll.min.js"></script>
   <script type="text/javascript" src="js/jquery-i18n-properties/jquery.i18n.properties.js"></script>
+  <script type="text/javascript" src="js/angular-gestures/gestures.js"></script>
+  <script type="text/javascript" src="js/angular-gestures/hammer.js"></script>
   <script type="text/javascript" charset="utf-8" src="cordova.js"></script>  
   <script type="text/javascript" src="js/underscore/underscore.js"></script>    
+  <!--script type="text/javascript" src="js/iscroll/iscroll.js"></script>
+  <script type="text/javascript" src="js/iscroll/ng-iscroll.js"></script-->
   <script type="text/javascript" src="js/stock.js"></script>   
   <script type="text/javascript" src="js/app.js"></script>
   <script type="text/javascript" src="js/controllers.js"></script>
@@ -33,21 +35,23 @@
 		</div>
 	  </div>
 	</nav>
+
 	<div id="spinner" data-role="page">
 		<img id="imgSpinner" class="spinner" src="image/spinner.gif"/>
 	</div>
+
 	<div id="app-status-ul" data-role="page"></div>
-	<div ng-view class="content">
-				
-	</div>
-	<div id="menu" class="menu">
+  <div ng-view class="content"> </div>
+	
+  <div id="menu" class="menu">
 		<ul class="nav nav-list">
             <!--li><a href="#aboutus" onclick="hideMenu()">About Us</a></li>
             <li><a href="#disclaimer" onclick="hideMenu()">Disclaimer</a></li-->
-            <li><a href="#share" onclick="share()">Share</a></li>
+      <li><a href="#share" onclick="share()">Share</a></li>
 			<li><a href="#rate" onclick="rate()">Rate Me</a></li>
 			<li><a href="#feedback" onclick="feedback()">Feedback</a></li>
 		</ul>
 	</div>
+
 </body>
 </html>

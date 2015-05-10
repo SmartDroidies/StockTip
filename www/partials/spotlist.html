@@ -1,10 +1,15 @@
-<section id="main" class="content ui-page-active">
-	<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
-		<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
-		<div class="desc">{{entry.level}}</div>
-	</article>
-	<div style="height: 50px"></div>
-</section>
+<div id="main" hm-tap="alert('This should work')" class="content ui-page-active topspaced">
+<!--div id="wrapper" ng-iscroll='wrapper' class="content ui-page-active topspaced"-->
+	<!--div id="scroller"-->	
+		<button ng-click="refresh()">Refresh</button>
+		<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
+			<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
+			<div class="desc">{{entry.level}}</div>
+		</article>
+		<div style="height: 50px"></div>
+	<!--/div-->	
+</div>
+
 <nav class="navbar navbar-default navbar-fixed-bottom main-footer">
 	<ul class="nav nav-pills">
 		<li class="footer_link active"><a>Spot Level</a></li>
@@ -12,4 +17,3 @@
 		<li class="footer_link"><a href="#/alertlist">Stock Alert</a></li>
 	</ul>		
 </nav>
-
