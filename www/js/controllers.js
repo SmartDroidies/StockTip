@@ -20,13 +20,13 @@ stockControllers.controller('HomeCtrl', ['$scope',
 
 // Controller to display Nifty Spot
 stockControllers.controller('SpotListCtrl', ['$scope', 'DataService',
-  function($scope, DataService) {
+  function($scope, dataService) {
 
 	$scope.refresh = function ()
     {
 		$('#spinner').show();
 		$('#main').hide();
-		var spots = DataService.fetchFreshSpot();
+		var spots = dataService.fetchFreshSpot();
 		//FIXME - Error Handling Here
 		$scope.spot = spots;
 		$('#main').show();
@@ -38,7 +38,7 @@ stockControllers.controller('SpotListCtrl', ['$scope', 'DataService',
 	$scope.listSpot = function () {
 		$('#spinner').show();
 		$('#main').hide();
-		var spots = DataService.fetchSpot();
+		var spots = dataService.fetchSpot();
 		//FIXME - Error Handling Here
 		$scope.spot = spots;
 		$('#main').show();
@@ -53,38 +53,33 @@ stockControllers.controller('SpotListCtrl', ['$scope', 'DataService',
 );
 
 // Controller to display Nifty Alert
-stockControllers.controller('AlertListCtrl', ['$scope', 'cacheService', 'localStorageService',
-  function($scope, cacheService, localStorageService) {
+stockControllers.controller('AlertListCtrl', ['$scope', 'DataService',
+  function($scope, dataService) {
   
 	//Show Spot Listing Page
 	$scope.listAlert = function () {
-		console.log('Controller Triggered for Alert');
 		$('#spinner').show();
-		$('#message').hide();
 		$('#main').hide();
-		var key =  'nifty_alert';
-		var cache = cacheService.get(key);
-		var localstorage = localStorageService.get(key);
-		if(cache) {
-			console.log('Loading Alert from cache');
-			$scope.alert = cache;
-			$('#main').show();
-			$('#spinner').hide();
-		} else if (localstorage) {
-          	console.log('Loading Alert from Local Storage');
-			if (!angular.isUndefined(localstorage)) {
-				cacheService.put(key, localstorage);
-			}
-			$scope.alert = localstorage;
-			$('#main').show();
-			$('#spinner').hide();			
-		} else {
-			//FIXME - Display message here
-			$('#message').show();
-			$('#spinner').hide();			
-		}    
+		var alerts = dataService.fetchAlert();
+		//FIXME - Error Handling Here
+		$scope.alert = alerts;
+		$('#main').show();
+		$('#spinner').hide();			
+		//FIXME - Style the message and give option for refresh
+		//$('#app-status-ul').html("Failed to collect data"); 
 	}; 
-	
+
+	$scope.refresh = function ()
+    {
+		$('#spinner').show();
+		$('#main').hide();
+		var alerts = dataService.fetchFreshAlert();
+		//FIXME - Error Handling Here
+		$scope.alert = alerts;
+		$('#main').show();
+		$('#spinner').hide();			
+    };
+
 	//Display Nifty Alert
 	$scope.listAlert();
 	
@@ -92,38 +87,34 @@ stockControllers.controller('AlertListCtrl', ['$scope', 'cacheService', 'localSt
 );
 
 // Controller to display Nifty Tips
-stockControllers.controller('TipListCtrl', ['$scope', 'cacheService', 'localStorageService',
-  function($scope, cacheService, localStorageService) {
+stockControllers.controller('TipListCtrl', ['$scope', 'DataService',
+  function($scope, dataService) {
 	
 	//Show Spot Listing Page
 	$scope.listTip = function () {
-		console.log('Controller Triggered for Tip');
 		$('#spinner').show();
-		$('#message').hide();
 		$('#main').hide();
-		var key =  'nifty_tip';
-		var cache = cacheService.get(key);
-		var localstorage = localStorageService.get(key);
-		if(cache) {
-			console.log('Loading Tip from cache');
-			$scope.tip = cache;
-			$('#main').show();
-			$('#spinner').hide();
-		} else if (localstorage) {
-          	console.log('Loading Tip from Local Storage');
-			if (!angular.isUndefined(localstorage)) {
-				//cacheService.put(key, localstorage);
-			}
-			$scope.tip = localstorage;
-			$('#main').show();
-			$('#spinner').hide();			
-		} else {
-			//FIXME - Display message here
-			$('#message').show();
-			$('#spinner').hide();			
-		}    
+		var tips = dataService.fetchTip();
+		//FIXME - Error Handling Here
+		$scope.tip = tips;
+		$('#main').show();
+		$('#spinner').hide();			
+		//FIXME - Style the message and give option for refresh
+		//$('#app-status-ul').html("Failed to collect data"); 
 	}; 
 	
+	$scope.refresh = function ()
+    {
+		$('#spinner').show();
+		$('#main').hide();
+		var tips = dataService.fetchFreshTip();
+		//FIXME - Error Handling Here
+		$scope.tip = tips;
+		$('#main').show();
+		$('#spinner').hide();			
+    };
+
+
 	//Display Nifty Tip
 	$scope.listTip();
 	

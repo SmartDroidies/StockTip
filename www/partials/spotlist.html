@@ -1,13 +1,9 @@
 <div id="main" hm-tap="alert('This should work')" class="content ui-page-active topspaced">
-<!--div id="wrapper" ng-iscroll='wrapper' class="content ui-page-active topspaced"-->
-	<!--div id="scroller"-->	
-		<button ng-click="refresh()">Refresh</button>
-		<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
-			<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
-			<div class="desc">{{entry.level}}</div>
-		</article>
-		<div style="height: 50px"></div>
-	<!--/div-->	
+	<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
+		<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
+		<div class="desc">{{entry.level}}</div>
+	</article>
+	<div style="height: 50px"></div>
 </div>
 
 <nav class="navbar navbar-default navbar-fixed-bottom main-footer">

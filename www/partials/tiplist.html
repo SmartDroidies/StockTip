@@ -1,44 +1,40 @@
-<!--section id="main" class="content ui-page-active">
-</section-->
-<!--div id="wrapper-tip" ng-iscroll="tipScroll" class="content ui-page-active topspaced">
-	<div id="scroller"-->	
-		<article class="tip" ng-repeat="entry in tip | orderBy:'-_id' ">
-			<div class="section-head">
-				<h3 class="sec-main-head">{{entry.call =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
-				<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>
-				<!--img id="img-tip-status" class="img-tip-status" src="image/TargetAchieved.png"/-->
-			</div>	
-			<!--div class="tip-table">
-				<div class="row">
-					<div class="cell tip-label" style="width : 20%">Stock</div>	
-					<div class="cell tip-value" style="width : 30%">{{entry.call}} {{entry.script}}</div>	
-					<div class="cell tip-label" style="width : 20%">Duration</div>	
-					<div class="cell tip-value" style="width : 30%">{{entry.dur}}</div>	
-				</div>
-			</div-->
-			<div class="tip-table">	
-				<div class="row">
-					<!--div class="cell tip-label">Curr Level</div>	
-					<div class="cell tip-value">{{entry.rate}}</div-->	
-					<div class="cell tip-label">Target : {{entry.tgt}}</div>	
-					<div class="cell tip-label">Stop Loss : {{entry.sl}}</div>	
-				</div>
-			</div>	
-			<div class="tip-table">	
-				<div class="row">
-					<div class="cell tip-label">Duration : {{entry.dur}}</div>	
-				</div>
-			</div>	
-			<div class="tip-table">
-				<div class="row">
-					<div class="cell italic-desc"><u>Note:</u> {{entry.tip}}</div>	
-				</div>
-			</div>		
-			<!--div class="desc">Duration  - {{entry.dur}} </div>
-			<div class="desc">{{entry.tip}}</div-->
-		</article>
-	<!--/div>
-</div-->		
+<section id="main" hm-tap="alert('This should work')" class="content ui-page-active">
+	<article class="tip" ng-repeat="entry in tip | orderBy:'-_id' ">
+		<div class="section-head">
+			<h3 class="sec-main-head">{{entry.call =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
+			<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>
+			<!--img id="img-tip-status" class="img-tip-status" src="image/TargetAchieved.png"/-->
+		</div>	
+		<!--div class="tip-table">
+			<div class="row">
+				<div class="cell tip-label" style="width : 20%">Stock</div>	
+				<div class="cell tip-value" style="width : 30%">{{entry.call}} {{entry.script}}</div>	
+				<div class="cell tip-label" style="width : 20%">Duration</div>	
+				<div class="cell tip-value" style="width : 30%">{{entry.dur}}</div>	
+			</div>
+		</div-->
+		<div class="tip-table">	
+			<div class="row">
+				<!--div class="cell tip-label">Curr Level</div>	
+				<div class="cell tip-value">{{entry.rate}}</div-->	
+				<div class="cell tip-label">Target : {{entry.tgt}}</div>	
+				<div class="cell tip-label">Stop Loss : {{entry.sl}}</div>	
+			</div>
+		</div>	
+		<div class="tip-table">	
+			<div class="row">
+				<div class="cell tip-label">Duration : {{entry.dur}}</div>	
+			</div>
+		</div>	
+		<div class="tip-table">
+			<div class="row">
+				<div class="cell italic-desc"><u>Note:</u> {{entry.tip}}</div>	
+			</div>
+		</div>		
+		<!--div class="desc">Duration  - {{entry.dur}} </div>
+		<div class="desc">{{entry.tip}}</div-->
+	</article>
+</section>		
 <div style="height: 50px"></div>
 <nav class="navbar navbar-default navbar-fixed-bottom main-footer">
 	<ul class="nav nav-pills">

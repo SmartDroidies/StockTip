@@ -13,13 +13,30 @@ stockServices.factory('Spot', ['$resource',
 stockServices.factory ('StorageService', function () {
 	var factory = {}; 
 
+	//Collect the list of Spot from LocalStorage
 	factory.collectSpot = function () {	
 		var key =  'lsnsl.nifty_spot';
 		var data =  window.localStorage.getItem(key);
 		console.log('Collecting Nifty Spot from Local Storage');
 		return JSON.parse(data);
 	}
-	
+
+	//Collect the list of Tip from LocalStorage
+	factory.collectTip = function () {	
+		var key =  'lsnsl.nifty_tip';
+		var data =  window.localStorage.getItem(key);
+		console.log('Collecting Nifty Tip from Local Storage');
+		return JSON.parse(data);
+	}
+
+	//Collect the list of Alert from LocalStorage
+	factory.collectAlert = function () {	
+		var key =  'lsnsl.nifty_alert';
+		var data =  window.localStorage.getItem(key);
+		console.log('Collecting Nifty Alert from Local Storage');
+		return JSON.parse(data);
+	}
+
 	return factory;
 }); 
 
@@ -35,7 +52,7 @@ stockServices.factory ('DataService', function (StorageService, cacheService) {
 		if(!spots) {
 			spots = StorageService.collectSpot();
 			if(spots) {
-				cacheService.put(key, spots);
+				//cacheService.put(key, spots);
 			}
 		}
 		return spots;
@@ -47,6 +64,47 @@ stockServices.factory ('DataService', function (StorageService, cacheService) {
 		var spots = cacheService.remove(key);
 		return this.fetchSpot();
 	}
+
+	//Fetch All Tip 
+	factory.fetchTip = function() {
+		var key =  'nifty_tip';
+		var tips = cacheService.get(key);
+		if(!tips) {
+			tips = StorageService.collectTip();
+			if(tips) {
+				//cacheService.put(key, tips);
+			}
+		}
+		return tips;
+	}
+
+	//Fetch Fresh Tip Data
+	factory.fetchFreshTip = function() {
+		var key =  'nifty_tip';
+		var spots = cacheService.remove(key);
+		return this.fetchTip();
+	}
+
+	//Fetch All Alert 
+	factory.fetchAlert = function() {
+		var key =  'nifty_alert';
+		var alerts = cacheService.get(key);
+		if(!alerts) {
+			alerts = StorageService.collectAlert();
+			if(alerts) {
+				//cacheService.put(key, alerts);
+			}
+		}
+		return alerts;
+	}
+
+	//Fetch Fresh Alert Data
+	factory.fetchFreshAlert = function() {
+		var key =  'nifty_alert';
+		var spots = cacheService.remove(key);
+		return this.fetchAlert();
+	}
+
 
     return factory;
 }); 
