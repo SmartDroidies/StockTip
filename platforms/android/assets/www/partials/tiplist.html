@@ -1,9 +1,10 @@
-<section id="main" class="content ui-page-active">
+<section id="main" hm-tap="alert('This should work')" class="content ui-page-active">
 	<article class="tip" ng-repeat="entry in tip | orderBy:'-_id' ">
 		<div class="section-head">
 			<h3 class="sec-main-head">{{entry.call =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
 			<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>
-			<!--img id="img-tip-status" class="img-tip-status" src="image/TargetAchieved.png"/-->
+			<img id="img-tip-status" class="img-tip-status" src="image/status_{{entry.status}}.png"/>
+			
 		</div>	
 		<!--div class="tip-table">
 			<div class="row">

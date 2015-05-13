@@ -26,6 +26,7 @@ stockControllers.controller('SpotListCtrl', ['$scope', 'DataService',
     {
 		$('#spinner').show();
 		$('#main').hide();
+		hideMenu();
 		var spots = dataService.fetchFreshSpot();
 		//FIXME - Error Handling Here
 		$scope.spot = spots;
@@ -38,6 +39,7 @@ stockControllers.controller('SpotListCtrl', ['$scope', 'DataService',
 	$scope.listSpot = function () {
 		$('#spinner').show();
 		$('#main').hide();
+		hideMenu();
 		var spots = dataService.fetchSpot();
 		//FIXME - Error Handling Here
 		$scope.spot = spots;
@@ -60,6 +62,7 @@ stockControllers.controller('AlertListCtrl', ['$scope', 'DataService',
 	$scope.listAlert = function () {
 		$('#spinner').show();
 		$('#main').hide();
+		hideMenu();
 		var alerts = dataService.fetchAlert();
 		//FIXME - Error Handling Here
 		$scope.alert = alerts;
@@ -73,6 +76,7 @@ stockControllers.controller('AlertListCtrl', ['$scope', 'DataService',
     {
 		$('#spinner').show();
 		$('#main').hide();
+		hideMenu();
 		var alerts = dataService.fetchFreshAlert();
 		//FIXME - Error Handling Here
 		$scope.alert = alerts;
@@ -94,6 +98,7 @@ stockControllers.controller('TipListCtrl', ['$scope', 'DataService',
 	$scope.listTip = function () {
 		$('#spinner').show();
 		$('#main').hide();
+		hideMenu();
 		var tips = dataService.fetchTip();
 		//FIXME - Error Handling Here
 		$scope.tip = tips;
@@ -107,6 +112,7 @@ stockControllers.controller('TipListCtrl', ['$scope', 'DataService',
     {
 		$('#spinner').show();
 		$('#main').hide();
+		hideMenu();
 		var tips = dataService.fetchFreshTip();
 		//FIXME - Error Handling Here
 		$scope.tip = tips;

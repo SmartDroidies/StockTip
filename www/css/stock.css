@@ -99,7 +99,7 @@ nav.main-footer ul {
 }
 
 #menu  {
-	background-color: #B7CEF7;
+	background-color: #E1E9F7;
 	border-right: 2px solid #B7CEF7;
 	border-radius: 0px 0px 10px 0px;
 	box-shadow: 5px 5px 5px #364D77;
@@ -215,21 +215,21 @@ img.spinner {
 	font-size:  16px;
 	padding: 3px 3px;
     margin: auto;	
-    text-align: center;
+    text-align: left;
 }
 
 .sec-main-head {
 	font-weight: bold;
 	margin: auto;
   	padding: 3px 3px;
-  	text-align: center;
+  	text-align: left;
 }
 
 .img-tip-status {
 	position: absolute;
   	right: 5px;
-  	height: 50px;
-  	width: 50px;
+  	height: 45px;
+  	width: 45px;
   	top: 5px;	
 }
 

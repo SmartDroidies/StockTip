@@ -1,4 +1,5 @@
-<div id="main" hm-tap="alert('This should work')" class="content ui-page-active topspaced">
+<div id="main" class="content ui-page-active topspaced">
+	<!--button hm-tap="alert('This should work')">Tap me</button-->
 	<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
 		<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
 		<div class="desc">{{entry.level}}</div>

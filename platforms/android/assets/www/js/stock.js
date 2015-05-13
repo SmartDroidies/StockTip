@@ -13,9 +13,9 @@ function onDeviceReadyAction() {
 	//Handle Menu 
 	$( "#menu-cntrl" ).click(function() {
 		if($("#menu").is(":visible")) {
-			$("#menu").hide(500);
+			$("#menu").hide(200);
 		} else {
-			$("#menu").show(500);
+			$("#menu").show(400);
 		}
 	});
 	
@@ -27,7 +27,11 @@ function onDeviceReadyAction() {
 		}
 	});
 	*/
+}
 
+//Hiding Menu
+function hideMenu() {
+	$("#menu").hide(200);
 }
 
 var intialSpotURL = "https://nodejs-smartdroidies.rhcloud.com/stock/spot";

@@ -1,9 +1,9 @@
 /* Directives */
 var stockDirective = angular.module('stockDirective',  []);
 
-stockDirective.directive('tipDesc', function() {
+stockDirective.directive('statusIcon', function() {
 	return {
-		 template: 'Nothing' 
+		template: "images/status_0.png"
 		/*
 		if(entry.call == 'B') {
 			template: 'Buy {{entry.script}} at {{entry.rate}}'
