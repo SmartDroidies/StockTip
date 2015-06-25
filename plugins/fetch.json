@@ -4,50 +4,73 @@
             "type": "git",
             "url": "https://github.com/phonegap-build/PushPlugin.git",
             "subdir": "."
-        }
+        },
+        "is_top_level": true,
+        "variables": {}
     },
-    "org.apache.cordova.device": {
+    "cordova-plugin-device": {
         "source": {
-            "type": "git",
-            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-device.git",
-            "subdir": "."
-        }
+            "type": "registry",
+            "id": "cordova-plugin-device"
+        },
+        "is_top_level": true,
+        "variables": {}
     },
     "org.apache.cordova.file-transfer": {
         "source": {
             "type": "registry",
             "id": "org.apache.cordova.file-transfer"
-        }
+        },
+        "is_top_level": true,
+        "variables": {}
     },
     "org.apache.cordova.file": {
         "source": {
             "type": "registry",
             "id": "org.apache.cordova.file"
-        }
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "de.appplant.cordova.plugin.email-composer": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/katzer/cordova-plugin-email-composer.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "nl.x-services.plugins.socialsharing": {
+        "source": {
+            "type": "registry",
+            "id": "nl.x-services.plugins.socialsharing"
+        },
+        "is_top_level": true,
+        "variables": {}
     },
     "org.apache.cordova.dialogs": {
         "source": {
             "type": "registry",
             "id": "org.apache.cordova.dialogs"
-        }
+        },
+        "is_top_level": true,
+        "variables": {}
     },
-    "com.admob.AdmobPlugin": {
+    "com.admob.plugin": {
         "source": {
             "type": "registry",
-            "id": "com.admob.admobplugin"
-        }
+            "id": "com.admob.plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
     },
-    "nl.x-services.plugins.socialsharing": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
-            "subdir": "."
-        }
-    },
-    "de.appplant.cordova.plugin.email-composer": {
+    "cordova-plugin-whitelist": {
         "source": {
             "type": "registry",
-            "id": "de.appplant.cordova.plugin.email-composer"
-        }
+            "id": "cordova-plugin-whitelist"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

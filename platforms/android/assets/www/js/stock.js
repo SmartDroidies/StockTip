@@ -7,8 +7,9 @@ function onDeviceReadyAction() {
 	SyncAlert();
 	//Sync Tip 
 	SyncTip();
+	
 	//Display Ad
-	displayAd();
+	//displayAd();
 	
 	//Handle Menu 
 	$( "#menu-cntrl" ).click(function() {

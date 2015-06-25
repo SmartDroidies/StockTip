@@ -9,11 +9,19 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"AdmobPlugin\"><param name=\"android-package\" value=\"com.admob.cordova.plugin.AdmobAdPlugin\" /></feature>",
+                            "xml": "<feature name=\"PushPlugin\"><param name=\"android-package\" value=\"com.plugin.gcm.PushPlugin\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"PushPlugin\"><param name=\"android-package\" value=\"com.plugin.gcm.PushPlugin\" /></feature>",
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FileTransfer\"><param name=\"android-package\" value=\"org.apache.cordova.filetransfer.FileTransfer\" /></feature>",
                             "count": 1
                         },
                         {
@@ -25,19 +33,15 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"AdmobPlugin\"><param name=\"android-package\" value=\"com.admob.cordova.plugin.AdmobAdPlugin\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"FileTransfer\"><param name=\"android-package\" value=\"org.apache.cordova.filetransfer.FileTransfer\" /></feature>",
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -46,14 +50,6 @@
             "AndroidManifest.xml": {
                 "parents": {
                     "/manifest/application": [
-                        {
-                            "xml": "<meta-data android:name=\"com.google.android.gms.version\" android:value=\"4452000\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<activity android:configChanges=\"keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize\" android:name=\"com.google.android.gms.ads.AdActivity\" />",
-                            "count": 1
-                        },
                         {
                             "xml": "<activity android:exported=\"true\" android:name=\"com.plugin.gcm.PushHandlerActivity\" />",
                             "count": 1
@@ -65,9 +61,21 @@
                         {
                             "xml": "<service android:name=\"com.plugin.gcm.GCMIntentService\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<meta-data android:name=\"com.google.android.gms.version\" android:value=\"7327000\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:configChanges=\"keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize\" android:name=\"com.google.android.gms.ads.AdActivity\" />",
+                            "count": 1
                         }
                     ],
                     "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 3
+                        },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
                             "count": 1
@@ -79,10 +87,6 @@
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
                             "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-                            "count": 3
                         }
                     ],
                     "/manifest": [
@@ -120,10 +124,13 @@
         }
     },
     "installed_plugins": {
-        "com.admob.AdmobPlugin": {
+        "com.phonegap.plugins.PushPlugin": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
-        "com.phonegap.plugins.PushPlugin": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "org.apache.cordova.file-transfer": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
         "de.appplant.cordova.plugin.email-composer": {
@@ -132,18 +139,19 @@
         "nl.x-services.plugins.socialsharing": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
-        "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.smart.droid.stock.tip"
-        },
         "org.apache.cordova.dialogs": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
-        "org.apache.cordova.file": {
+        "com.admob.plugin": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
-        "org.apache.cordova.file-transfer": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        }
+    }
 }

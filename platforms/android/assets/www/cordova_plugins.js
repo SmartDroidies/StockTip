@@ -1,17 +1,31 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "file": "plugins/com.admob.AdmobPlugin/www/AdmobPlugin.js",
-        "id": "com.admob.AdmobPlugin.AdmobAd",
-        "clobbers": [
-            "window.admobAd"
-        ]
-    },
-    {
         "file": "plugins/com.phonegap.plugins.PushPlugin/www/PushNotification.js",
         "id": "com.phonegap.plugins.PushPlugin.PushNotification",
         "clobbers": [
             "PushNotification"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-device/www/device.js",
+        "id": "cordova-plugin-device.device",
+        "clobbers": [
+            "device"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransferError.js",
+        "id": "org.apache.cordova.file-transfer.FileTransferError",
+        "clobbers": [
+            "window.FileTransferError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransfer.js",
+        "id": "org.apache.cordova.file-transfer.FileTransfer",
+        "clobbers": [
+            "window.FileTransfer"
         ]
     },
     {
@@ -30,13 +44,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.device/www/device.js",
-        "id": "org.apache.cordova.device.device",
-        "clobbers": [
-            "device"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.dialogs/www/notification.js",
         "id": "org.apache.cordova.dialogs.notification",
         "merges": [
@@ -49,6 +56,18 @@ module.exports = [
         "merges": [
             "navigator.notification"
         ]
+    },
+    {
+        "file": "plugins/com.admob.plugin/www/AdmobPlugin.js",
+        "id": "com.admob.plugin.AdmobAd",
+        "clobbers": [
+            "window.admob"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-whitelist/whitelist.js",
+        "id": "cordova-plugin-whitelist.whitelist",
+        "runs": true
     },
     {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
@@ -195,33 +214,20 @@ module.exports = [
             "cordova"
         ],
         "runs": true
-    },
-    {
-        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransferError.js",
-        "id": "org.apache.cordova.file-transfer.FileTransferError",
-        "clobbers": [
-            "window.FileTransferError"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransfer.js",
-        "id": "org.apache.cordova.file-transfer.FileTransfer",
-        "clobbers": [
-            "window.FileTransfer"
-        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "com.admob.AdmobPlugin": "1.5.1",
     "com.phonegap.plugins.PushPlugin": "2.4.0",
+    "cordova-plugin-device": "1.0.1",
+    "org.apache.cordova.file-transfer": "0.5.0",
     "de.appplant.cordova.plugin.email-composer": "0.8.2",
-    "nl.x-services.plugins.socialsharing": "4.3.16",
-    "org.apache.cordova.device": "0.3.1-dev",
+    "nl.x-services.plugins.socialsharing": "4.3.18",
     "org.apache.cordova.dialogs": "0.3.0",
-    "org.apache.cordova.file": "1.3.3",
-    "org.apache.cordova.file-transfer": "0.5.0"
+    "com.admob.plugin": "5.0.1",
+    "cordova-plugin-whitelist": "1.1.0",
+    "org.apache.cordova.file": "1.3.3"
 }
 // BOTTOM OF METADATA
 });
