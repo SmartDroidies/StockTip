@@ -87,33 +87,31 @@ stockControllers.controller('AlertListCtrl', ['$scope', 'DataService',
 );
 
 // Controller to display Nifty Tips
-stockControllers.controller('TipListCtrl', ['$scope', 'DataService',
-  function($scope, dataService) {
+stockControllers.controller('TipListCtrl', ['$scope', 'DataService', '$interval',
+  function($scope, dataService, $interval) {
 	
 	//Show Spot Listing Page
 	$scope.listTip = function () {
-		$('#spinner').show();
-		$('#main').hide();
+		window.plugins.spinnerDialog.show();
 		hideMenu();
 		var tips = dataService.fetchTip();
 		//FIXME - Error Handling Here
 		$scope.tip = tips;
-		$('#main').show();
-		$('#spinner').hide();			
+		window.plugins.spinnerDialog.hide();
+		$interval(showInterstitial, 5000);
 		//FIXME - Style the message and give option for refresh
 		//$('#app-status-ul').html("Failed to collect data"); 
+
 	}; 
 	
 	$scope.refresh = function ()
     {
-		$('#spinner').show();
-		$('#main').hide();
+		window.plugins.spinnerDialog.show();		
 		hideMenu();
 		var tips = dataService.fetchFreshTip();
 		//FIXME - Error Handling Here
 		$scope.tip = tips;
-		$('#main').show();
-		$('#spinner').hide();			
+		window.plugins.spinnerDialog.hide();
     };
 
 

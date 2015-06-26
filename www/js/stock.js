@@ -8,9 +8,10 @@ function onDeviceReadyAction() {
 	//Sync Tip 
 	SyncTip();
 	
-	//Display Ad
-	//displayAd();
-	
+	//Load Admob Ad
+	loadAd();	
+
+
 	//Handle Menu 
 	$( "#menu-cntrl" ).click(function() {
 		if($("#menu").is(":visible")) {
@@ -363,6 +364,46 @@ function rate() {
 }
 
 
+//Funciton to initalize admob add
+function loadAd() {
+	admob.initAdmob("ca-app-pub-7211761341170914/5295352787","ca-app-pub-7211761341170914/8572492788");
+	//admob.showBanner(admob.BannerSize.BANNER,admob.Position.BOTTOM_APP); 
+	admob.showBannerAbsolute(admob.BannerSize.BANNER,20,100);
+
+	document.addEventListener(admob.Event.onInterstitialFailedReceive,onReceiveFail, false);
+	document.addEventListener(admob.Event.onBannerFailedReceive,onReceiveFail, false);
+	document.addEventListener(admob.Event.onInterstitialReceive,onReceiveSuccess, false);
+
+	admob.cacheInterstitial();// load admob Interstitial
+
+}
+
+
+
+function onReceiveFail (message) {
+	var msg=admob.Error[message.data];
+    if(msg==undefined) {
+    	msg=message.data;
+	}
+	console.log("Admob Failure : " + msg);
+}
+
+function onReceiveSuccess(message){
+	//var msg=message.type+"\n";
+	//console.log("Admob Success : " + msg);
+	//admob.showInterstitial();
+}
+
+//Load AdMob Interstitial Ad
+function showInterstitial(){
+    admob.isInterstitialReady(function(isReady){
+        if(isReady){
+            admob.showInterstitial();
+        }
+    });
+}
+
+/*
 //Display Interstitial Ad
 function displayAd() {
 	//console.log("init Interstitial Triggered");
@@ -406,3 +447,5 @@ function onReceiveFail (message) {
 function onAdmobEvent (message) {
 	console.log("Message Received - " + message.type + "  " + message.data);
 }
+
+*/

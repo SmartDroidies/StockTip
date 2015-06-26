@@ -188,9 +188,14 @@ div.divider {
 	height :10px;
 }
 
-#app-status-ul, #main, #menu, .topspaced {
+#app-status-ul, #menu, .topspaced {
 	margin-top: 50px;
 }
+
+#main {
+	margin-top: 100px;
+}
+
 
 #spinner {
 	height : 100%;
