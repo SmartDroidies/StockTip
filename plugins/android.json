@@ -43,6 +43,10 @@
                         {
                             "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SpinnerDialog\"><param name=\"android-package\" value=\"hu.dpal.phonegap.plugins.SpinnerDialog\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -146,6 +150,9 @@
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
         "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "hu.dpal.phonegap.plugins.SpinnerDialog": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         }
     },

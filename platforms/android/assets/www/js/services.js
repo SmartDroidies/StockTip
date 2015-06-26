@@ -17,7 +17,7 @@ stockServices.factory ('StorageService', function () {
 	factory.collectSpot = function () {	
 		var key =  'lsnsl.nifty_spot';
 		var data =  window.localStorage.getItem(key);
-		console.log('Collecting Nifty Spot from Local Storage');
+		//console.log('Collecting Nifty Spot from Local Storage');
 		return JSON.parse(data);
 	}
 
@@ -25,7 +25,7 @@ stockServices.factory ('StorageService', function () {
 	factory.collectTip = function () {	
 		var key =  'lsnsl.nifty_tip';
 		var data =  window.localStorage.getItem(key);
-		console.log('Collecting Nifty Tip from Local Storage');
+		//console.log('Collecting Nifty Tip from Local Storage');
 		return JSON.parse(data);
 	}
 
@@ -33,7 +33,7 @@ stockServices.factory ('StorageService', function () {
 	factory.collectAlert = function () {	
 		var key =  'lsnsl.nifty_alert';
 		var data =  window.localStorage.getItem(key);
-		console.log('Collecting Nifty Alert from Local Storage');
+		//console.log('Collecting Nifty Alert from Local Storage');
 		return JSON.parse(data);
 	}
 
@@ -42,7 +42,7 @@ stockServices.factory ('StorageService', function () {
 
 
 //Factory for managing spot
-stockServices.factory ('DataService', function (StorageService, cacheService) {
+stockServices.factory ('DataService', function (StorageService, cacheService, _) {
 	var factory = {}; 
 	
 	//Fetch All Spot 
@@ -52,6 +52,8 @@ stockServices.factory ('DataService', function (StorageService, cacheService) {
 		if(!spots) {
 			spots = StorageService.collectSpot();
 			if(spots) {
+				spots = _.sortBy(spots, "_id").reverse();
+				spots = spots.slice(0, 10);
 				//cacheService.put(key, spots);
 			}
 		}

@@ -127,28 +127,32 @@ header h2 {
 }
 
 /* Nifty Section Styling */
-article.spot, article.tip {
-	text-align: center;
-	padding: 0px;
-	background-color : #DCE4F3;
-	margin: 10px 5px;
-	border: 1px solid #072761;
-	/* border-radius: 5px 5px 5px 5px; */
-	box-shadow: 5px 5px 2px #888888;
+article.spot {
+  	padding: 0px;
+  	margin: 5px 0px;
+  	border-bottom: 1px solid #92B1EC;
 }
 
+/* Nifty Section Styling */
+article.tip {
+  	padding: 0px;
+  	margin: 5px 3px;
+  	border-bottom: 1px solid #92B1EC;
+  	border-right: 1px solid #92B1EC;
+  	border-left: 1px solid #92B1EC;
+}
+
+
 article.spot h3  {
-	background-color: #A2C0F7;
 	margin: auto;
-	padding: 5px 5px;
-	border-radius: 5px 5px 0px 0px;
-	font-weight: bold;
+	padding: 3px 3px;
+	text-align: left;
 }
 
 
 article div.desc  {
 	padding: 5px 5px;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 
@@ -190,7 +194,7 @@ div.divider {
 
 #spinner {
 	height : 100%;
-	display: block;
+	display: none;
 	text-align: center;
 }
 

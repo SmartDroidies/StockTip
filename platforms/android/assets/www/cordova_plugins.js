@@ -70,6 +70,13 @@ module.exports = [
         "runs": true
     },
     {
+        "file": "plugins/hu.dpal.phonegap.plugins.SpinnerDialog/www/spinner.js",
+        "id": "hu.dpal.phonegap.plugins.SpinnerDialog.SpinnerDialog",
+        "merges": [
+            "window.plugins.spinnerDialog"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -227,6 +234,7 @@ module.exports.metadata =
     "org.apache.cordova.dialogs": "0.3.0",
     "com.admob.plugin": "5.0.1",
     "cordova-plugin-whitelist": "1.1.0",
+    "hu.dpal.phonegap.plugins.SpinnerDialog": "1.3.1",
     "org.apache.cordova.file": "1.3.3"
 }
 // BOTTOM OF METADATA

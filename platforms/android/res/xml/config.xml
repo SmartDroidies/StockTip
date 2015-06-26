@@ -30,6 +30,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="SpinnerDialog">
+        <param name="android-package" value="hu.dpal.phonegap.plugins.SpinnerDialog" />
+    </feature>
     <icon density="ldpi" src="res/android/stock_ldpi.png" />
     <icon density="mdpi" src="res/android/stock_mdpi.png" />
     <icon density="hdpi" src="res/android/stock_hdpi.png" />

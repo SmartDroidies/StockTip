@@ -1,7 +1,8 @@
 <section id="main" hm-tap="alert('This should work')" class="content ui-page-active">
 	<article class="tip" ng-repeat="entry in tip | orderBy:'-_id' ">
 		<div class="section-head">
-			<h3 class="sec-main-head">{{entry.call =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
+
+			<h3 class="sec-main-head">{{entry.call.trim() =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
 			<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>
 			<img id="img-tip-status" class="img-tip-status" src="image/status_{{entry.status}}.png"/>
 			
@@ -37,11 +38,11 @@
 	</article>
 </section>		
 <div style="height: 50px"></div>
-<nav class="navbar navbar-default navbar-fixed-bottom main-footer">
+<!--nav class="navbar navbar-default navbar-fixed-bottom main-footer">
 	<ul class="nav nav-pills">
 		<li class="footer_link"><a href="#/spotlist">Spot Level</a></li>
 		<li class="footer_link active"><a>Stock Tips</a></li>
 		<li class="footer_link"><a href="#/alertlist">Stock Alert</a></li>
 	</ul>		
-</nav>
+</nav-->
 

@@ -24,30 +24,26 @@ stockControllers.controller('SpotListCtrl', ['$scope', 'DataService',
 
 	$scope.refresh = function ()
     {
-		$('#spinner').show();
-		$('#main').hide();
+		window.plugins.spinnerDialog.show();
 		hideMenu();
 		var spots = dataService.fetchFreshSpot();
-		//FIXME - Error Handling Here
 		$scope.spot = spots;
-		$('#main').show();
-		$('#spinner').hide();			
+		window.plugins.spinnerDialog.hide();
     };
 
 
 	//Show Spot Listing Page
 	$scope.listSpot = function () {
-		$('#spinner').show();
-		$('#main').hide();
+		window.plugins.spinnerDialog.show();
 		hideMenu();
 		var spots = dataService.fetchSpot();
-		//FIXME - Error Handling Here
 		$scope.spot = spots;
-		$('#main').show();
-		$('#spinner').hide();			
-		//FIXME - Style the message and give option for refresh
-		//$('#app-status-ul').html("Failed to collect data"); 
+		window.plugins.spinnerDialog.hide();
 	}; 
+
+	$scope.routeTo = function(url) {
+      $window.location.href = url;
+    };
 
 	//Display Nifty Spot
 	$scope.listSpot();
