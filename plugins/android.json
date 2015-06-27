@@ -47,6 +47,10 @@
                         {
                             "xml": "<feature name=\"SpinnerDialog\"><param name=\"android-package\" value=\"hu.dpal.phonegap.plugins.SpinnerDialog\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -153,6 +157,9 @@
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
         "hu.dpal.phonegap.plugins.SpinnerDialog": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "org.apache.cordova.inappbrowser": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         }
     },

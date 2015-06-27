@@ -1,15 +1,7 @@
-<section id="main" class="content ui-page-active">
+<div id="alert" class="content topspaced">	
 	<article class="spot" ng-repeat="entry in alert | orderBy:'-_id' ">
 		<h3>Alert : {{entry.ctime | date:'medium'}} </h3>
 		<div class="desc">{{entry.alert}}</div>
 	</article>
-	<div style="height: 50px"></div>
-</section>
-<!--nav class="navbar navbar-default navbar-fixed-bottom main-footer">
-	<ul class="nav nav-pills">
-		<li class="footer_link"><a href="#/spotlist">Spot Level</a></li>
-		<li class="footer_link"><a href="#/tiplist">Stock Tips</a></li>
-		<li class="footer_link active"><a>Stock Alert</a></li>
-	</ul>		
-</nav-->
-
+</div>	
+<div style="height: 50px"></div>

@@ -77,6 +77,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
+        "id": "org.apache.cordova.inappbrowser.inappbrowser",
+        "clobbers": [
+            "window.open"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -235,6 +242,7 @@ module.exports.metadata =
     "com.admob.plugin": "5.0.1",
     "cordova-plugin-whitelist": "1.1.0",
     "hu.dpal.phonegap.plugins.SpinnerDialog": "1.3.1",
+    "org.apache.cordova.inappbrowser": "0.6.0",
     "org.apache.cordova.file": "1.3.3"
 }
 // BOTTOM OF METADATA

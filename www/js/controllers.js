@@ -8,7 +8,7 @@ stockControllers.controller('HomeCtrl', ['$scope',
   function($scope) {
 	//Show Home Page
 	$scope.showHome = function () {    
-		$scope.status = "Display Home";
+		hideMenu();
 	}; 
 
 	//Share

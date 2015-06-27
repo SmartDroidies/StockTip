@@ -354,12 +354,10 @@ function feedback() {
 function rate() {
 	var version = device.platform;
 	if(version == "Android") {
-		var url = "https://play.google.com/store/apps/details?id=com.smart.droid.stock.tip";
+		var url = "market://details?id=com.smart.droid.stock.tip";
+        window.open(url,"_system");			
 	} else {
-		//FIXME - Change this accordingly
-		var url = "https://play.google.com/store/apps/details?id=com.smart.droid.stock.tip";
 	}
-	window.open( url, "_blank" );
 	$("#menu").hide(100);
 }
 
@@ -367,8 +365,8 @@ function rate() {
 //Funciton to initalize admob add
 function loadAd() {
 	admob.initAdmob("ca-app-pub-7211761341170914/5295352787","ca-app-pub-7211761341170914/8572492788");
-	//admob.showBanner(admob.BannerSize.BANNER,admob.Position.BOTTOM_APP); 
-	admob.showBannerAbsolute(admob.BannerSize.BANNER,20,100);
+	admob.showBanner(admob.BannerSize.BANNER,admob.Position.BOTTOM_APP); 
+	//admob.showBannerAbsolute(admob.BannerSize.BANNER,20,100);
 
 	document.addEventListener(admob.Event.onInterstitialFailedReceive,onReceiveFail, false);
 	document.addEventListener(admob.Event.onBannerFailedReceive,onReceiveFail, false);
@@ -403,49 +401,3 @@ function showInterstitial(){
     });
 }
 
-/*
-//Display Interstitial Ad
-function displayAd() {
-	//console.log("init Interstitial Triggered");
-	admobAd.initInterstitial("ca-app-pub-7211761341170914/8572492788");
-	admobAd.cacheInterstitial();
-	//document.addEventListener(admobAd.AdEvent.onAdmobInterstitialDismiss, onInterstitialDismiss, false);
-	document.addEventListener('onAdmobInterstitialDismiss', onInterstitialDismiss, false);
-	document.addEventListener('onAdmobInterstitialFailedReceive', onAdmobEvent, false);
-	document.addEventListener('onAdmobInterstitialLeaveApplication', onAdmobEvent, false);
-	document.addEventListener('onAdmobInterstitialPresent', onAdmobEvent, false);
-	document.addEventListener('onAdmobInterstitialReceive', onAdmobEvent, false);	
-	document.addEventListener(admobAd.AdEvent.onInterstitialReceive, onInterstitialReceive, false);
-	document.addEventListener(admobAd.AdEvent.onInterstitialFailedReceive, onReceiveFail, false);
-}
-
-
-//Load AdMob Interstitial Ad
-function showInterstitial(){
-	admobAd.isInterstitialReady(function(isReady){
-		if(isReady){
-			admobAd.showInterstitial();
-		}
-	});
-}
-
-function onInterstitialReceive (message) {
-	//alert("onMInterstitialReceive ,you can show it now");
-	console.log('onMInterstitialReceive ,you can show it now');
-	setTimeout(showInterstitial(), 30000);
-}
-
-function onInterstitialDismiss (message) {
-	setTimeout(showInterstitial(), 45000);
-}	
-
-function onReceiveFail (message) {
-   //alert("load fail: "+message.type+"  "+message.data);
-   console.log("load fail: " + message.type + "  " + message.data);
-}
-
-function onAdmobEvent (message) {
-	console.log("Message Received - " + message.type + "  " + message.data);
-}
-
-*/

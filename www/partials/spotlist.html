@@ -1,4 +1,4 @@
-<div id="main" class="content ui-page-active topspaced">
+<div id="spot" class="content topspaced">
 	<!--button hm-tap="alert('This should work')">Tap me</button-->
 	<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
 		<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
@@ -7,10 +7,3 @@
 	<div style="height: 50px"></div>
 </div>
 
-<!--nav class="navbar navbar-default navbar-fixed-bottom main-footer">
-	<ul class="nav nav-pills">
-		<li class="footer_link active"><a>Spot Level</a></li>
-		<li class="footer_link"><a href="#/tiplist">Stock Tips</a></li>
-		<li class="footer_link"><a href="#/alertlist">Stock Alert</a></li>
-	</ul>		
-</nav-->

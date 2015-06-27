@@ -29,7 +29,7 @@ stockApp.config(['$routeProvider',
 				templateUrl : 'partials/others.html',
 				controller : 'HomeCtrl'
 			}).otherwise({
-				redirectTo : '/spotlist'
+				redirectTo : '/home'
 			});
 		}
 	]);
