@@ -51,13 +51,13 @@ var nifty_alert = prefix + 'nifty_alert';
 function SyncSpot() {
 	var lastSyncSpot = window.localStorage.getItem(sync_time_spot);
 	if (lastSyncSpot) {
-		console.log('Sync Latest Nifty Spot - Start ');
+		//console.log('Sync Latest Nifty Spot - Start ');
 		syncLatestNiftySpot();
-		console.log('Sync Latest Nifty Spot - End ');
+		//console.log('Sync Latest Nifty Spot - End ');
 	} else {
-		console.log('Load Initial Nifty Spot - Start ');
+		//console.log('Load Initial Nifty Spot - Start ');
 		loadInitialNiftySpot();
-		console.log('Load Initial Nifty Spot - End ');
+		//console.log('Load Initial Nifty Spot - End ');
 	}
 }
 
@@ -65,13 +65,13 @@ function SyncSpot() {
 function SyncAlert() {
 	var lastSyncAlert = window.localStorage.getItem(sync_time_alert);
 	if (lastSyncAlert) {
-		console.log('Sync Latest Nifty Alert - Start ');
+		//console.log('Sync Latest Nifty Alert - Start ');
 		syncLatestNiftyAlert();
-		console.log('Sync Latest Nifty Alert - End ');
+		//console.log('Sync Latest Nifty Alert - End ');
 	} else {
-		console.log('Load Initial Nifty Alert - Start ');
+		//console.log('Load Initial Nifty Alert - Start ');
 		loadInitialNiftyAlert();
-		console.log('Load Initial Nifty Alert - End ');
+		//console.log('Load Initial Nifty Alert - End ');
 	}
 }
 
@@ -79,13 +79,13 @@ function SyncAlert() {
 function SyncTip() {
 	var lastSyncTip = window.localStorage.getItem(sync_time_tip);
 	if (lastSyncTip) {
-		console.log('Sync Latest Nifty Tip - Start ');
+		//console.log('Sync Latest Nifty Tip - Start ');
 		syncLatestNiftyTip();
-		console.log('Sync Latest Nifty Tip - End ');
+		//console.log('Sync Latest Nifty Tip - End ');
 	} else {
-		console.log('Load Initial Nifty Tip - Start ');
+		//console.log('Load Initial Nifty Tip - Start ');
 		loadInitialNiftyTip();
-		console.log('Load Initial Nifty Tip - End ');
+		//console.log('Load Initial Nifty Tip - End ');
 	}
 }
 
@@ -112,7 +112,7 @@ function syncLatestNiftySpot() {
 		uri = encodeURI("https://nodejs-smartdroidies.rhcloud.com/stock/spot?ts=" + lastSyncTime);
 	} 
 	var fileURL = cordova.file.cacheDirectory + "/spot.json";
-	console.log("Download URL : " + uri);
+	//console.log("Download URL : " + uri);
 	fileTransfer.download(uri, fileURL, function (entry) {
 		//console.log("download complete: " + entry.toURL());
 		syncLocalSpot(fileURL);
@@ -187,9 +187,9 @@ function syncLatestNiftyAlert() {
 		uri = encodeURI(intialAlertURL + "?ts=" + lastSyncAlert);
 	} 
 	var fileAlertURL = cordova.file.cacheDirectory + "/alert.json";
-	console.log("Download URL : " + uri);
+	//console.log("Download URL : " + uri);
 	fileTransfer.download(uri, fileAlertURL, function (entry) {
-		console.log("download complete: " + entry.toURL());
+		//console.log("download complete: " + entry.toURL());
 		syncLocalAlert(fileAlertURL);
 	}, function (error) {
 		console.log("download error source " + error.source);
@@ -258,7 +258,7 @@ function syncLatestNiftyTip() {
 		uri = encodeURI(intialTipURL + "?ts=" + lastSyncTime);
 	} 
 	var fileURL = cordova.file.cacheDirectory + "/tip.json";
-	console.log("Download URL : " + uri);
+	//console.log("Download URL : " + uri);
 	fileTransfer.download(uri, fileURL, function (entry) {
 		//console.log("download complete: " + entry.toURL());
 		syncLocalTip(fileURL);

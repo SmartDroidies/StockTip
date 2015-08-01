@@ -77,9 +77,23 @@ function onNotification(e) {
 			else
 				$("#app-status-ul").append('<li>--BACKGROUND NOTIFICATION--' + '</li>');
 		}
-		//console.log(e.payload.message);
+		//console.log(e.payload);
 		$("#app-status-ul").append('<li>MESSAGE -> MSG: ' + e.payload.message + '</li>');
 		$("#app-status-ul").append('<li>MESSAGE -> URL: ' + e.payload.url + '</li>');
+
+		
+		if(e.payload.type) {
+			var landingPath = "#/spotlist";
+			if(e.payload.type == 'Alert') {
+				landingPath = "#/alertlist";
+			} else if(e.payload.type == 'Tip') {
+				landingPath = "#/tiplist";
+			} 
+			window.location = landingPath;
+		}
+		
+		
+
 		function alertDismissed() {
 			// do something
 		}

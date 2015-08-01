@@ -19,8 +19,8 @@ stockControllers.controller('HomeCtrl', ['$scope',
 );
 
 // Controller to display Nifty Spot
-stockControllers.controller('SpotListCtrl', ['$scope', 'DataService',
-  function($scope, dataService) {
+stockControllers.controller('SpotListCtrl', ['$scope', 'DataService', '$interval',
+  function($scope, dataService, $interval) {
 
 	$scope.refresh = function ()
     {
@@ -39,6 +39,7 @@ stockControllers.controller('SpotListCtrl', ['$scope', 'DataService',
 		var spots = dataService.fetchSpot();
 		$scope.spot = spots;
 		window.plugins.spinnerDialog.hide();
+		$interval(this.refresh, 5000, 1);
 	}; 
 
 	$scope.routeTo = function(url) {
@@ -51,33 +52,29 @@ stockControllers.controller('SpotListCtrl', ['$scope', 'DataService',
 );
 
 // Controller to display Nifty Alert
-stockControllers.controller('AlertListCtrl', ['$scope', 'DataService',
-  function($scope, dataService) {
+stockControllers.controller('AlertListCtrl', ['$scope', 'DataService', '$interval',
+  function($scope, dataService, $interval) {
   
 	//Show Spot Listing Page
 	$scope.listAlert = function () {
-		$('#spinner').show();
-		$('#main').hide();
+		window.plugins.spinnerDialog.show();
 		hideMenu();
 		var alerts = dataService.fetchAlert();
 		//FIXME - Error Handling Here
 		$scope.alert = alerts;
-		$('#main').show();
-		$('#spinner').hide();			
-		//FIXME - Style the message and give option for refresh
-		//$('#app-status-ul').html("Failed to collect data"); 
+		window.plugins.spinnerDialog.hide();
+		$interval(this.refresh, 5000, 1);
 	}; 
 
 	$scope.refresh = function ()
     {
-		$('#spinner').show();
-		$('#main').hide();
+		window.plugins.spinnerDialog.show();
 		hideMenu();
 		var alerts = dataService.fetchFreshAlert();
 		//FIXME - Error Handling Here
+		console.log("Refreshing Alert");
 		$scope.alert = alerts;
-		$('#main').show();
-		$('#spinner').hide();			
+		window.plugins.spinnerDialog.hide();
     };
 
 	//Display Nifty Alert
