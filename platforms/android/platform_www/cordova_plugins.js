@@ -66,14 +66,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/com.admob.plugin/www/AdmobPlugin.js",
-        "id": "com.admob.plugin.AdmobAd",
-        "pluginId": "com.admob.plugin",
-        "clobbers": [
-            "window.admob"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-whitelist/whitelist.js",
         "id": "cordova-plugin-whitelist.whitelist",
         "pluginId": "cordova-plugin-whitelist",
@@ -272,7 +264,6 @@ module.exports.metadata =
     "de.appplant.cordova.plugin.email-composer": "0.8.2",
     "nl.x-services.plugins.socialsharing": "4.3.18",
     "org.apache.cordova.dialogs": "0.3.0",
-    "com.admob.plugin": "5.0.1",
     "cordova-plugin-whitelist": "1.1.0",
     "hu.dpal.phonegap.plugins.SpinnerDialog": "1.3.1",
     "org.apache.cordova.inappbrowser": "0.6.0",

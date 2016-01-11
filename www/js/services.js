@@ -80,6 +80,24 @@ stockServices.factory ('DataService', function (StorageService, cacheService, _)
 		return tips;
 	}
 
+	//Function to return active tips.
+	factory.fetchActiveTips = function() {
+		var tips = this.fetchFreshTip();
+		tips = _.filter(tips, function(tip) {
+			return (tip.active == 'Y'); 
+		});
+		return tips;		
+	}  
+
+	//Function to return active tips.
+	factory.fetchArchiveTips = function() {
+		var tips = this.fetchFreshTip();
+		tips = _.filter(tips, function(tip) {
+			return (tip.active != 'Y'); 
+		});
+		return tips;		
+	}  
+
 	//Fetch Fresh Tip Data
 	factory.fetchFreshTip = function() {
 		var key =  'nifty_tip';
@@ -106,6 +124,19 @@ stockServices.factory ('DataService', function (StorageService, cacheService, _)
 		var spots = cacheService.remove(key);
 		return this.fetchAlert();
 	}
+
+	//Collect tip details 
+	factory.fetchTipDetail = function(tipId) {
+		var tips = this.fetchTip();			
+		console.log("Collect tip detail for : " + tipId);
+		var tip = _.find(tips, function(rw, rwIdx) { 
+			console.log("Compare : " + tipId   + " : " + rw._id);
+			if(tipId == rw._id) {
+				return true;
+			}
+		});
+		return tip;
+	} 
 
 
     return factory;

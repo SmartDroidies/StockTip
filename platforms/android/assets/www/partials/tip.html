@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default navbar-fixed-top main-header col-xs-12" role="navigation">
+	<!--img id="menu-cntrl" class="menu-control" src="image/menu.png"/-->
+	<img id="app-icon" class="app-icon" src="image/stock.png"/>
+	<h2 class="main-title">Nifty Spot Level</h2>
+	<!--img id="menu-cntrl" class="menu-control" src="image/menu.png"/-->
+</nav>
+
+
+<article id="tip" class="tip-detail col-xs-12">
+
+	<div class="tip-container col-xs-12">
+
+		<div class="col-xs-12 tip-head">{{tip.call.trim() =='S' ? 'Sell' : 'Buy'}}  {{tip.script}}</div>
+		<!--h2 class="sub-head">{{tip.ctime | date:'medium'}}</h2-->
+		<div class="col-xs-12 tip-row">
+			<div class="col-xs-4 tip-label">Curr Level</div>
+			<div class="col-xs-8 tip-value">{{tip.rate}}</div>
+		</div>
+		<div class="col-xs-12 tip-row">
+			<div class="col-xs-4 tip-label">Target</div>
+			<div class="col-xs-8 tip-value">{{tip.tgt}}</div>
+		</div>
+		<div class="col-xs-12 tip-row">
+			<div class="col-xs-4 tip-label">Stop Loss</div>
+			<div class="col-xs-8 tip-value">{{tip.sl}}</div>
+		</div>
+		<div class="col-xs-12 tip-row">
+			<div class="col-xs-4 tip-label">Duration</div>
+			<div class="col-xs-8 tip-value">{{tip.dur}}</div>
+		</div>
+		<div class="col-xs-12 tip-row">
+			<u>Note:</u> {{tip.tip}}
+		</div>
+	</div>	
+</article>

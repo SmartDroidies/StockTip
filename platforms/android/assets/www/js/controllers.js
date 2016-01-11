@@ -4,16 +4,82 @@
 
 var stockControllers = angular.module('stockControllers', []);
 
-stockControllers.controller('HomeCtrl', ['$scope',
-  function($scope) {
+stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
+  function($scope, dataService, $location) {
 	//Show Home Page
 	$scope.showHome = function () {    
 		hideMenu();
+
+		if(!$scope.tab) {
+			$scope.spotLevel();
+		}
+
 	}; 
 
 	//Share
 	$scope.share = function () {	
 	};
+
+	//Display Spot Level
+    $scope.spotLevel = function() {
+		$scope.tab = 1;
+		var spots = dataService.fetchFreshSpot();
+		$scope.spot = spots;
+		//window.analytics.trackView('Spot Level');
+    };
+
+	//Display Stock Tips
+    $scope.stockTip = function() {
+		$scope.tab = 2;
+
+		if(!$scope.tipTab) {
+			$scope.activeTips();
+		}
+		//window.analytics.trackView('Stock Tip');
+    };
+
+	//Display Active Tips
+    $scope.activeTips = function() {
+		$scope.tipTab = 1;
+		/*
+		var promise = dataService.getActiveTip();
+       	promise.then(
+       		function(payload) { 
+       			alert("Promise Call Success");
+              	//$scope.listingData = payload.data;
+          	},
+          	function(errorPayload) {
+          		alert("Promise Call Failed");
+              	//$log.error('failure loading movie', errorPayload);
+          	});		
+        */ 	
+		var tips = dataService.fetchActiveTips();
+		$scope.tip = tips;
+		//console.log("Tips JSON : " + JSON.stringify(tips));
+		//window.analytics.trackView('Stock Alert');
+    };
+
+	//Display Archive Tips
+    $scope.archiveTips = function() {
+		$scope.tipTab = 2;
+		var tips = dataService.fetchArchiveTips();
+		$scope.tip = tips;
+		//window.analytics.trackView('Stock Alert');
+    };
+
+	//Display Stock Alert
+    $scope.stockAlert = function() {
+		$scope.tab = 3;
+		var alerts = dataService.fetchFreshAlert();
+		$scope.alert = alerts;
+		//window.analytics.trackView('Stock Alert');
+    };
+
+    //Display tip detail
+    $scope.showTipDetail = function(tipId) {
+    	$location.path('/tip/' + tipId);  
+    } 
+	
 	$scope.showHome();
   }]
 );
@@ -22,8 +88,7 @@ stockControllers.controller('HomeCtrl', ['$scope',
 stockControllers.controller('SpotListCtrl', ['$scope', 'DataService', '$interval',
   function($scope, dataService, $interval) {
 
-	$scope.refresh = function ()
-    {
+	$scope.refresh = function () {
 		window.plugins.spinnerDialog.show();
 		hideMenu();
 		var spots = dataService.fetchFreshSpot();
@@ -95,7 +160,7 @@ stockControllers.controller('TipListCtrl', ['$scope', 'DataService', '$interval'
 		//FIXME - Error Handling Here
 		$scope.tip = tips;
 		window.plugins.spinnerDialog.hide();
-		$interval(showInterstitial, 5000);
+		//$interval(showInterstitial, 5000);
 		//FIXME - Style the message and give option for refresh
 		//$('#app-status-ul').html("Failed to collect data"); 
 
@@ -118,6 +183,23 @@ stockControllers.controller('TipListCtrl', ['$scope', 'DataService', '$interval'
   }]
 );
 
+
+// Controller to display Nifty Tip Detail
+stockControllers.controller('TipDetailCtrl', ['$scope', '$routeParams',  'DataService',
+  function($scope, $routeParams, dataService) {
+	
+	//Display Tip Detail
+	$scope.displayTipDetail = function () {
+		var tipId = $routeParams.id;
+		var tip = dataService.fetchTipDetail(tipId);
+		$scope.tip = tip;
+	}; 
+
+	//Display Nifty Tip Detail
+	$scope.displayTipDetail();
+	
+  }]
+);
 
 
 

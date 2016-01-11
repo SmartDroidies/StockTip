@@ -17,8 +17,6 @@
             </intent-filter>
         </receiver>
         <service android:name="com.plugin.gcm.GCMIntentService" />
-        <meta-data android:name="com.google.android.gms.version" android:value="7327000" />
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:name="com.google.android.gms.ads.AdActivity" />
     </application>
     <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="22" />
     <permission android:name="com.smart.droid.stock.tip.permission.C2D_MESSAGE" android:protectionLevel="signature" />
@@ -27,8 +25,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

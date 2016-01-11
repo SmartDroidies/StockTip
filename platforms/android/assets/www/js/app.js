@@ -1,6 +1,6 @@
 'use strict';
 /* App Module */
-var stockApp = angular.module('stockApp', ['ngRoute', 'ngSanitize', 'stockControllers', 'stockDirective', 'stockServices', 'cacheService', 'LocalStorageModule', 'angular-gestures', 'underscore']);
+var stockApp = angular.module('stockApp', ['ngRoute', 'ngTouch', 'ngSanitize', 'stockControllers', 'stockDirective', 'stockServices', 'cacheService', 'LocalStorageModule', 'angular-gestures', 'underscore']);
 
 stockApp.config(['$routeProvider', 
 		function ($routeProvider) {
@@ -19,6 +19,9 @@ stockApp.config(['$routeProvider',
 			}).when('/spot', {
 				templateUrl : 'partials/spot.html',
 				controller : 'SpotCtrl'
+			}).when('/tip/:id', {
+				templateUrl : 'partials/tip.html',
+				controller : 'TipDetailCtrl'
 			}).when('/tips', {
 				templateUrl : 'partials/tips.html',
 				controller : 'HomeCtrl'

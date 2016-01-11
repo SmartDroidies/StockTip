@@ -1,16 +1,20 @@
+var analyticsId = 'UA-45773318-14';
+
 //Device Ready Event
 document.addEventListener("deviceready", onDeviceReadyAction, false);
 function onDeviceReadyAction() {
+
+	//window.analytics.startTrackerWithId(analyticsId);
+
 	//Sync Spot 
 	SyncSpot();
 	//Sync Alert 
 	SyncAlert();
 	//Sync Tip 
-	SyncTip();
+	//SyncTip();
 	
 	//Load Admob Ad
-	loadAd();	
-
+	//loadAd();	
 
 	//Handle Menu 
 	$( "#menu-cntrl" ).click(function() {
@@ -258,9 +262,9 @@ function syncLatestNiftyTip() {
 		uri = encodeURI(intialTipURL + "?ts=" + lastSyncTime);
 	} 
 	var fileURL = cordova.file.cacheDirectory + "/tip.json";
-	//console.log("Download URL : " + uri);
+	console.log("Download URL : " + uri);
 	fileTransfer.download(uri, fileURL, function (entry) {
-		//console.log("download complete: " + entry.toURL());
+		console.log("download complete: " + entry.toURL());
 		syncLocalTip(fileURL);
 	}, function (error) {
 		console.log("download error source " + error.source);
@@ -273,13 +277,13 @@ function syncLatestNiftyTip() {
 
 //Sync Temp JSON for Nitfy Tip
 function syncLocalTip(file) {
-	//console.log("Temp JSON URL : " + file);
+	console.log("Temp JSON URL : " + file);
 	jQuery.getJSON(file, function (data) {
 		if (!angular.isUndefined(data)) {
 			var localTip =  window.localStorage.getItem(nifty_tip);
 			var localJSON = JSON.parse(localTip);
 			$.each(data.data, function(key, item) {
-				//console.log(key + " - " + JSON.stringify(item));
+				console.log(key + " - " + JSON.stringify(item));
 				var newTip = true;
 				_.find(localJSON,function(rw, rwIdx) { 
 					if(rw._id == item._id) {
@@ -364,15 +368,37 @@ function rate() {
 
 //Funciton to initalize admob add
 function loadAd() {
+
+	// it will display leaderboard banner at bottom center, using the default options 
+
+	//var div = document.createElement("div");
+	//document.appendChild(div);
+
+
+	var adDiv = document.getElementById("ad-holder");
+
+	var simpleAd = new Smaato(adDiv, {
+	    publisherId: ad_units.publisherId,
+	    adId: adid.small_banner,
+	    position:SMAATO_AD_POSITION.BOTTOM_CENTER,
+	    autoShow: true, 
+	    autoReload: true, 
+	    isTesting: true,
+	    x: 0
+	});	
+
+	//adDiv.appendChild(div);
+
+	
+	/*
 	admob.initAdmob("ca-app-pub-7211761341170914/5295352787","ca-app-pub-7211761341170914/8572492788");
 	admob.showBanner(admob.BannerSize.BANNER,admob.Position.BOTTOM_APP); 
 	//admob.showBannerAbsolute(admob.BannerSize.BANNER,20,100);
-
 	document.addEventListener(admob.Event.onInterstitialFailedReceive,onReceiveFail, false);
 	document.addEventListener(admob.Event.onBannerFailedReceive,onReceiveFail, false);
 	document.addEventListener(admob.Event.onInterstitialReceive,onReceiveSuccess, false);
-
 	admob.cacheInterstitial();// load admob Interstitial
+	*/
 
 }
 
@@ -400,4 +426,3 @@ function showInterstitial(){
         }
     });
 }
-
