@@ -8,13 +8,15 @@ function onDeviceReadyAction() {
 
 	//Sync Spot 
 	SyncSpot();
+	
 	//Sync Alert 
 	SyncAlert();
+	
 	//Sync Tip 
-	//SyncTip();
+	SyncTip();
 	
 	//Load Admob Ad
-	//loadAd();	
+	loadAd();	
 
 	//Handle Menu 
 	$( "#menu-cntrl" ).click(function() {
