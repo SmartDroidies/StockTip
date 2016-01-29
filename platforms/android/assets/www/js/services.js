@@ -128,9 +128,9 @@ stockServices.factory ('DataService', function (StorageService, cacheService, _)
 	//Collect tip details 
 	factory.fetchTipDetail = function(tipId) {
 		var tips = this.fetchTip();			
-		console.log("Collect tip detail for : " + tipId);
+		//console.log("Collect tip detail for : " + tipId);
 		var tip = _.find(tips, function(rw, rwIdx) { 
-			console.log("Compare : " + tipId   + " : " + rw._id);
+			//console.log("Compare : " + tipId   + " : " + rw._id);
 			if(tipId == rw._id) {
 				return true;
 			}

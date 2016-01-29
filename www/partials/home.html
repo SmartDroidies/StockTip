@@ -5,55 +5,58 @@
 		<!--img id="menu-cntrl" class="menu-control" src="image/menu.png"/-->
 </nav>
 
-<ul id="main-tabs" class="nav nav-tabs col-xs-12 main-tabs">
-	<li class="col-xs-4" ng-class="{'active': tab == 1}" ng-click="spotLevel()">
-		<a class="main-tab-link">Spot Levels</a>
-	</li>
-	<li class="col-xs-4" ng-class="{'active': tab == 2}" ng-click="stockTip()">
-		<a class="main-tab-link">Stock Tip</a>
-	</li>
-	<li class="col-xs-4" ng-class="{'active': tab == 3}" ng-click="stockAlert()">
-		<a class="main-tab-link">Stock Alert</a>
-	</li>
-</ul>
+<div id="main" class="ui-page-active content">
 
-<!-- Section for Spot Level -->  
-<div id="spot-level" ng-if="tab == 1" class="col-xs-12 group content" ng-swipe-left="stockTip()">
-	<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
-		<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
-		<div class="desc">{{entry.level}}</div>
-	</article>
-</div>
-
-<!-- Section for Stock Tip -->  
-<div id="stock-tip" ng-if="tab == 2" class="col-xs-12 group content" ng-swipe-left="stockAlert()" ng-swipe-right="spotLevel()">
-	<ul id="tip-tabs" class="nav nav-tabs col-xs-12 tip-tabs">
-		<li class="col-xs-6" ng-class="{'active': tipTab == 1}" ng-click="activeTips()">
-			<a class="main-tab-link">Active Tips</a>
+	<ul id="main-tabs" class="nav nav-tabs col-xs-12 main-tabs">
+		<li class="col-xs-4" ng-class="{'active': tab == 1}" ng-click="spotLevel()">
+			<a class="main-tab-link">Spot Levels</a>
 		</li>
-		<li class="col-xs-6" ng-class="{'active': tipTab == 2}" ng-click="archiveTips()">
-			<a class="main-tab-link">Archive</a>
+		<li class="col-xs-4" ng-class="{'active': tab == 2}" ng-click="stockTip()">
+			<a class="main-tab-link">Stock Tip</a>
+		</li>
+		<li class="col-xs-4" ng-class="{'active': tab == 3}" ng-click="stockAlert()">
+			<a class="main-tab-link">Stock Alert</a>
 		</li>
 	</ul>
-	<div id="tip-list" class="col-xs-12 tip-list">
-		<article class="tip" ng-repeat="entry in tip | orderBy:'-_id' " ng-click="showTipDetail(entry._id)">
-			<h3 class="sec-main-head">{{entry.call.trim() =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
-			<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>
-			<!--img id="img-tip-status" class="img-tip-status" src="image/status_{{entry.status}}.png"/-->
+
+
+	<!-- Section for Spot Level -->  
+	<div id="spot-level" ng-if="tab == 1" class="col-xs-12 group " ng-swipe-left="stockTip()">
+		<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
+			<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
+			<div class="desc">{{entry.level}}</div>
 		</article>
-	</div>	
+	</div>
+
+	<!-- Section for Stock Tip -->  
+	<div id="stock-tip" ng-if="tab == 2" class="col-xs-12 group" ng-swipe-left="stockAlert()" ng-swipe-right="spotLevel()">
+		<ul id="tip-tabs" class="nav nav-tabs col-xs-12 tip-tabs">
+			<li class="col-xs-6" ng-class="{'active': tipTab == 1}" ng-click="activeTips()">
+				<a class="main-tab-link">Active Tips</a>
+			</li>
+			<li class="col-xs-6" ng-class="{'active': tipTab == 2}" ng-click="archiveTips()">
+				<a class="main-tab-link">Archive</a>
+			</li>
+		</ul>
+		<div id="tip-list" class="col-xs-12 tip-list">
+			<article class="tip" ng-repeat="entry in tip | orderBy:'-_id' " ng-click="showTipDetail(entry._id)">
+				<h3 class="sec-main-head">{{entry.call.trim() =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
+				<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>
+				<!--img id="img-tip-status" class="img-tip-status" src="image/status_{{entry.status}}.png"/-->
+			</article>
+		</div>	
+	</div>
+
+	<!-- Section for Stock Alert -->  
+	<div id="stock-alert" ng-if="tab == 3" class="col-xs-12 group" ng-swipe-right="stockTip()" >
+		<article class="spot" ng-repeat="entry in alert | orderBy:'-_id' ">
+			<h3>Alert : {{entry.ctime | date:'medium'}} </h3>
+			<div class="desc">{{entry.alert}}</div>
+		</article>
+	</div>
 </div>
 
-<!-- Section for Stock Alert -->  
-<div id="stock-alert" ng-if="tab == 3" class="col-xs-12 group content" ng-swipe-right="stockTip()" >
-	<article class="spot" ng-repeat="entry in alert | orderBy:'-_id' ">
-		<h3>Alert : {{entry.ctime | date:'medium'}} </h3>
-		<div class="desc">{{entry.alert}}</div>
-	</article>
-</div>
-
-<!--div id="main" class="home-link ui-page-active topspaced">
-  <a href="#/spotlist" class="btn btn-primary btn-lg btn-block btn-home" role="button">
+  <!--a href="#/spotlist" class="btn btn-primary btn-lg btn-block btn-home" role="button">
   	<span class="glyphicon glyphicon-signal btn-home-img" aria-hidden="true"></span> Spot Levels 
   </a>
   <a href="#/tiplist" class="btn btn-primary btn-lg btn-block btn-home" role="button">
@@ -61,8 +64,8 @@
   </a>
   <a href="#/alertlist" class="btn btn-primary btn-lg btn-block btn-home" role="button">
   	<span class="glyphicon glyphicon-bell btn-home-img" aria-hidden="true"></span> Stock Alert 
-  </a>
-</div-->
+  </a-->
+
 
 <div id="menu" class="menu">
 	<ul class="nav nav-list">

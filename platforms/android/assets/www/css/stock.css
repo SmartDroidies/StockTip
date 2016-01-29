@@ -34,7 +34,7 @@ html, body {
 
 .content  {
 	overflow : scroll;
-	height: 80%;
+	height: 100%;
 }
 
 .main-header {
@@ -212,7 +212,7 @@ div.divider {
 }
 
 #main {
-	margin-top: 100px;
+	/* margin-top: 100px; */
 }
 
 

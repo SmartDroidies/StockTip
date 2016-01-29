@@ -266,7 +266,7 @@ function syncLatestNiftyTip() {
 	var fileURL = cordova.file.cacheDirectory + "/tip.json";
 	console.log("Download URL : " + uri);
 	fileTransfer.download(uri, fileURL, function (entry) {
-		console.log("download complete: " + entry.toURL());
+		//console.log("download complete: " + entry.toURL());
 		syncLocalTip(fileURL);
 	}, function (error) {
 		console.log("download error source " + error.source);
@@ -279,18 +279,18 @@ function syncLatestNiftyTip() {
 
 //Sync Temp JSON for Nitfy Tip
 function syncLocalTip(file) {
-	console.log("Temp JSON URL : " + file);
+	//console.log("Temp JSON URL : " + file);
 	jQuery.getJSON(file, function (data) {
 		if (!angular.isUndefined(data)) {
 			var localTip =  window.localStorage.getItem(nifty_tip);
 			var localJSON = JSON.parse(localTip);
 			$.each(data.data, function(key, item) {
-				console.log(key + " - " + JSON.stringify(item));
+				//console.log(key + " - " + JSON.stringify(item));
 				var newTip = true;
 				_.find(localJSON,function(rw, rwIdx) { 
 					if(rw._id == item._id) {
 						localJSON[rwIdx] = item;
-						console.log("Replace Existing Object for : " + key); 
+						//console.log("Replace Existing Object for : " + key); 
 						newTip = false; 
 						return true;
 					}; 

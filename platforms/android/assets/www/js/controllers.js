@@ -193,6 +193,14 @@ stockControllers.controller('TipDetailCtrl', ['$scope', '$routeParams',  'DataSe
 		var tipId = $routeParams.id;
 		var tip = dataService.fetchTipDetail(tipId);
 		$scope.tip = tip;
+
+		  SomaJS.loadAd({
+		    adDivId : "smaatoad",
+		    publisherId: 1100006441,
+		    adSpaceId: 130073438,
+		    dimension: "full_320x480"
+		  },callBackForSmaato);
+		
 	}; 
 
 	//Display Nifty Tip Detail
