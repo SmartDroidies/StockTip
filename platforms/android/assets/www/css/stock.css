@@ -216,10 +216,10 @@ div.divider {
 }
 
 
-#spinner {
-	height : 100%;
-	display: none;
-	text-align: center;
+.spinner {
+    height: 100%;
+    text-align: center;
+    margin-top: 200px;
 }
 
 img.spinner {

@@ -1,29 +1,4 @@
 {
-    "com.phonegap.plugins.PushPlugin": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/phonegap-build/PushPlugin.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-device": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-device"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "org.apache.cordova.file-transfer": {
-        "source": {
-            "type": "registry",
-            "id": "org.apache.cordova.file-transfer"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "org.apache.cordova.file": {
         "source": {
             "type": "registry",
@@ -32,27 +7,19 @@
         "is_top_level": false,
         "variables": {}
     },
-    "de.appplant.cordova.plugin.email-composer": {
+    "cordova-plugin-google-analytics": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-google-analytics"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-smaato": {
         "source": {
             "type": "git",
-            "url": "https://github.com/katzer/cordova-plugin-email-composer.git",
+            "url": "https://github.com/phfsantos/cordova-plugin-smaato.git",
             "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "nl.x-services.plugins.socialsharing": {
-        "source": {
-            "type": "registry",
-            "id": "nl.x-services.plugins.socialsharing"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "org.apache.cordova.dialogs": {
-        "source": {
-            "type": "registry",
-            "id": "org.apache.cordova.dialogs"
         },
         "is_top_level": true,
         "variables": {}
@@ -60,23 +27,7 @@
     "cordova-plugin-whitelist": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-whitelist"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "hu.dpal.phonegap.plugins.SpinnerDialog": {
-        "source": {
-            "type": "registry",
-            "id": "hu.dpal.phonegap.plugins.spinnerdialog"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "org.apache.cordova.inappbrowser": {
-        "source": {
-            "type": "registry",
-            "id": "org.apache.cordova.inappbrowser"
+            "id": "cordova-plugin-whitelist@~1.2.1"
         },
         "is_top_level": true,
         "variables": {}

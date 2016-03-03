@@ -23,10 +23,48 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
 	//Display Spot Level
     $scope.spotLevel = function() {
 		$scope.tab = 1;
-		var spots = dataService.fetchFreshSpot();
-		$scope.spot = spots;
-		//window.analytics.trackView('Spot Level');
+		if(window.analytics) {
+			window.analytics.trackView('Spot Level');
+		}	
+		$scope.loading = true;
+
+		var promise = dataService.collectRemoteSpot();	
+		promise.then ( function(data) { 
+				//console.log("Payload : " + JSON.stringify(data));
+              	$scope.spot = data.spot;
+        	},
+        	function(errorPayload) {
+            	console.log('Failure loading spot level', errorPayload);
+          	});
+		$scope.loading = false;
+
+		//var spots = dataService.fetchFreshSpot();
+		//$scope.spot = spots;
+ 	 };
+
+	
+	//Display Stock Alert
+    $scope.stockAlert = function() {
+		$scope.tab = 3;
+		if(window.analytics) {
+			window.analytics.trackView('Stock Alert');
+		}	
+		$scope.loading = true;
+		var promise = dataService.collectRemoteAlert();	
+		promise.then ( function(data) { 
+				//console.log("Payload : " + JSON.stringify(data));
+              	$scope.alert = data.alert;
+        	},
+        	function(errorPayload) {
+            	console.log('Failure loading stock alert', errorPayload);
+          	});
+		$scope.loading = false;
+
+		//var alerts = dataService.fetchFreshAlert();
+		//$scope.alert = alerts;
+		//window.analytics.trackView('Stock Alert');
     };
+
 
 	//Display Stock Tips
     $scope.stockTip = function() {
@@ -67,18 +105,15 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
 		//window.analytics.trackView('Stock Alert');
     };
 
-	//Display Stock Alert
-    $scope.stockAlert = function() {
-		$scope.tab = 3;
-		var alerts = dataService.fetchFreshAlert();
-		$scope.alert = alerts;
-		//window.analytics.trackView('Stock Alert');
-    };
-
     //Display tip detail
     $scope.showTipDetail = function(tipId) {
     	$location.path('/tip/' + tipId);  
     } 
+
+    //Reload Data
+    $scope.onReload = function() {
+    	alert("Reload data");
+    }
 	
 	$scope.showHome();
   }]

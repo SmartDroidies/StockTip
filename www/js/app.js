@@ -1,6 +1,6 @@
 'use strict';
 /* App Module */
-var stockApp = angular.module('stockApp', ['ngRoute', 'ngTouch', 'ngSanitize', 'stockControllers', 'stockDirective', 'stockServices', 'cacheService', 'LocalStorageModule', 'angular-gestures', 'underscore']);
+var stockApp = angular.module('stockApp', ['ngRoute', 'ngTouch', 'ngSanitize', 'stockControllers', 'stockDirective', 'stockServices', 'cacheService', 'LocalStorageModule', 'angular-gestures', 'underscore', 'mgcrea.pullToRefresh']);
 
 stockApp.config(['$routeProvider', 
 		function ($routeProvider) {

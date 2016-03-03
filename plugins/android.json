@@ -132,37 +132,15 @@
         }
     },
     "installed_plugins": {
-        "com.phonegap.plugins.PushPlugin": {
+        "cordova-plugin-google-analytics": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.smart.droid.stock.tip"
-        },
-        "org.apache.cordova.file-transfer": {
-            "PACKAGE_NAME": "com.smart.droid.stock.tip"
-        },
-        "de.appplant.cordova.plugin.email-composer": {
-            "PACKAGE_NAME": "com.smart.droid.stock.tip"
-        },
-        "nl.x-services.plugins.socialsharing": {
-            "PACKAGE_NAME": "com.smart.droid.stock.tip"
-        },
-        "org.apache.cordova.dialogs": {
+        "cordova-plugin-smaato": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
-        },
-        "hu.dpal.phonegap.plugins.SpinnerDialog": {
-            "PACKAGE_NAME": "com.smart.droid.stock.tip"
-        },
-        "org.apache.cordova.inappbrowser": {
-            "PACKAGE_NAME": "com.smart.droid.stock.tip"
         }
     },
-    "dependent_plugins": {
-        "org.apache.cordova.file": {
-            "PACKAGE_NAME": "com.smart.droid.stock.tip"
-        }
-    }
+    "dependent_plugins": {}
 }

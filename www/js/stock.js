@@ -1,19 +1,32 @@
 var analyticsId = 'UA-45773318-14';
 
+
+var ad_units = {
+	publisherId: "1100006441",    
+    iosadid: "",
+    iosadtracking: true,
+    googleadid: "",
+    googlednt: false,
+    android: {
+        banner: '130073437',       // Phones and Tablets 120 x 20 
+        interstitial: '130073438'     // Phones and Tablets 100% 
+    }
+};
+ 
 //Device Ready Event
 document.addEventListener("deviceready", onDeviceReadyAction, false);
 function onDeviceReadyAction() {
 
-	//window.analytics.startTrackerWithId(analyticsId);
+	window.analytics.startTrackerWithId(analyticsId);
 
 	//Sync Spot 
-	SyncSpot();
+	//SyncSpot();
 	
 	//Sync Alert 
-	SyncAlert();
+	//SyncAlert();
 	
 	//Sync Tip 
-	SyncTip();
+	//SyncTip();
 	
 	//Load Admob Ad
 	loadAd();	
@@ -371,14 +384,20 @@ function rate() {
 //Funciton to initalize admob add
 function loadAd() {
 
-	// it will display leaderboard banner at bottom center, using the default options 
+	//var div = document.createElement("div");
+	//document.appendChild(div);
+	var div = document.getElementById("smaatoad");   
+	var simpleAd = new Smaato(div, {
+	    publisherId: ad_units.publisherId,
+	    adId: ad_units.banner
+	});
 
+	// it will display leaderboard banner at bottom center, using the default options 
 	//var div = document.createElement("div");
 	//document.appendChild(div);
 
-
+	/*
 	var adDiv = document.getElementById("ad-holder");
-
 	var simpleAd = new Smaato(adDiv, {
 	    publisherId: ad_units.publisherId,
 	    adId: adid.small_banner,
@@ -387,24 +406,10 @@ function loadAd() {
 	    autoReload: true, 
 	    isTesting: true,
 	    x: 0
-	});	
-
-	//adDiv.appendChild(div);
-
-	
-	/*
-	admob.initAdmob("ca-app-pub-7211761341170914/5295352787","ca-app-pub-7211761341170914/8572492788");
-	admob.showBanner(admob.BannerSize.BANNER,admob.Position.BOTTOM_APP); 
-	//admob.showBannerAbsolute(admob.BannerSize.BANNER,20,100);
-	document.addEventListener(admob.Event.onInterstitialFailedReceive,onReceiveFail, false);
-	document.addEventListener(admob.Event.onBannerFailedReceive,onReceiveFail, false);
-	document.addEventListener(admob.Event.onInterstitialReceive,onReceiveSuccess, false);
-	admob.cacheInterstitial();// load admob Interstitial
+	});
 	*/
 
 }
-
-
 
 function onReceiveFail (message) {
 	var msg=admob.Error[message.data];

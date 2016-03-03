@@ -42,7 +42,7 @@ stockServices.factory ('StorageService', function () {
 
 
 //Factory for managing spot
-stockServices.factory ('DataService', function (StorageService, cacheService, _) {
+stockServices.factory ('DataService', function (StorageService, cacheService, _, $http, $log, $q) {
 	var factory = {}; 
 	
 	//Fetch All Spot 
@@ -138,10 +138,62 @@ stockServices.factory ('DataService', function (StorageService, cacheService, _)
 		return tip;
 	} 
 
+	// Collect Spot Level from Remote server
+	factory.collectRemoteSpot = function() {
+		return $http.get('http://nodejs-smartdroidies.rhcloud.com/stock/spot')
+        	.then (	function (response) {
+                return {
+                   	ts: response.data.ts,
+                   	spot:  response.data.data
+                }
+            });
+		/*
+		var deferred = $q.defer();
+    	$http.get('')
+    		.then (
+    		)
+    		.success(function(data) { 
+    			$log.info("Response : " + JSON.stringify(data));
+          		deferred.resolve({ ts: data.title, cost: data.price});
+       		}).error(function(msg, code) {
+          		deferred.reject(msg);
+    			$log.error(msg, code);
+       		});
+     	return deferred.promise;
+     	*/
+	} 
+
+	// Collect Stock Alert from Remote server
+	factory.collectRemoteAlert = function() {
+		return $http.get('http://nodejs-smartdroidies.rhcloud.com/stock/alert')
+        	.then (	function (response) {
+                return {
+                   	ts: response.data.ts,
+                   	alert:  response.data.data
+                }
+            });
+		/*
+		var deferred = $q.defer();
+    	$http.get('')
+    		.then (
+    		)
+    		.success(function(data) { 
+    			$log.info("Response : " + JSON.stringify(data));
+          		deferred.resolve({ ts: data.title, cost: data.price});
+       		}).error(function(msg, code) {
+          		deferred.reject(msg);
+    			$log.error(msg, code);
+       		});
+     	return deferred.promise;
+     	*/
+	} 
+
 
     return factory;
 }); 
 
+
+//
 
 /* Cache Services */
 var cacheServices = angular.module('cacheService', []);

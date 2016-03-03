@@ -1,4 +1,4 @@
-<div id="spot" class="content topspaced">
+<div id="spot" class="content topspaced" pull-to-refresh="onReload()">
 	<!--button hm-tap="alert('This should work')">Tap me</button-->
 	<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
 		<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
