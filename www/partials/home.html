@@ -42,6 +42,9 @@
 			</li>
 		</ul>
 		<div id="tip-list" class="col-xs-12 tip-list">
+			<div class="spinner" ng-show="loading">
+				<img src="image/spinner.gif"/>
+			</div>
 			<article class="tip" ng-repeat="entry in tip | orderBy:'-_id' " ng-click="showTipDetail(entry._id)">
 				<h3 class="sec-main-head">{{entry.call.trim() =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
 				<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>

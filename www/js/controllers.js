@@ -68,12 +68,18 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
 		if(!$scope.tipTab) {
 			$scope.activeTips();
 		}
-		//window.analytics.trackView('Stock Tip');
     };
 
 	//Display Active Tips
     $scope.activeTips = function() {
 		$scope.tipTab = 1;
+		if(window.analytics) {
+			window.analytics.trackView('Stock Tip - Active');
+		}	
+
+		$scope.tips = null;
+		$scope.loading = true;
+
 		/*
 		var promise = dataService.getActiveTip();
        	promise.then(
@@ -86,17 +92,27 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
               	//$log.error('failure loading movie', errorPayload);
           	});		
         */ 	
-		var tips = dataService.fetchActiveTips();
-		$scope.tip = tips;
+		//var tips = dataService.fetchActiveTips();
+		//$scope.tip = tips;
 		//console.log("Tips JSON : " + JSON.stringify(tips));
-		//window.analytics.trackView('Stock Alert');
     };
 
 	//Display Archive Tips
     $scope.archiveTips = function() {
 		$scope.tipTab = 2;
+		
+		if(window.analytics) {
+			window.analytics.trackView('Stock Tip - Archive');
+		}	
+
+		$scope.tips = null;
+		$scope.loading = true;
+
+
+		/*
 		var tips = dataService.fetchArchiveTips();
 		$scope.tip = tips;
+		*/
 		//window.analytics.trackView('Stock Alert');
     };
 
@@ -104,17 +120,13 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
     $scope.showTipDetail = function(tipId) {
     	$location.path('/tip/' + tipId);  
     } 
-
-    //Reload Data
-    $scope.onReload = function() {
-    	alert("Reload data");
-    }
 	
 	$scope.showHome();
   }]
 );
 
 // Controller to display Nifty Spot
+/*
 stockControllers.controller('SpotListCtrl', ['$scope', 'DataService', '$interval',
   function($scope, dataService, $interval) {
 
@@ -212,7 +224,7 @@ stockControllers.controller('TipListCtrl', ['$scope', 'DataService', '$interval'
 	
   }]
 );
-
+*/
 
 // Controller to display Nifty Tip Detail
 stockControllers.controller('TipDetailCtrl', ['$scope', '$routeParams',  'DataService',
