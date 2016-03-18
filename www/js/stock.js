@@ -19,15 +19,6 @@ function onDeviceReadyAction() {
 
 	window.analytics.startTrackerWithId(analyticsId);
 
-	//Sync Spot 
-	//SyncSpot();
-	
-	//Sync Alert 
-	//SyncAlert();
-	
-	//Sync Tip 
-	//SyncTip();
-	
 	//Load Admob Ad
 	loadAd();	
 
@@ -40,20 +31,26 @@ function onDeviceReadyAction() {
 		}
 	});
 	
-	//Close menu if user clicks somewhere else
-	/*
-	$("body").click( function(e) {
-		if(e.target.className !== "menu") {
-			$("#menu").hide();
-		}
-	});
-	*/
+	//CLear cache
+    var success = function(status) {
+        //alert('Message: ' + status);
+    }
+
+    var error = function(status) {
+        //alert('Error: ' + status);
+    }
+
+    window.cache.clear( success, error );
+    window.cache.cleartemp(); // 
+
 }
 
 //Hiding Menu
 function hideMenu() {
 	$("#menu").hide(200);
 }
+
+/* 
 
 var intialSpotURL = "https://nodejs-smartdroidies.rhcloud.com/stock/spot";
 var intialTipURL = "https://nodejs-smartdroidies.rhcloud.com/stock/tip";
@@ -325,7 +322,7 @@ function syncLocalTip(file) {
 		console.log("Failed to sync latest Nifty Tip");
 	});
 }
-
+*/
 
 
 //Exit Implementation

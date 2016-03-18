@@ -36,6 +36,13 @@ module.exports = [
         "file": "plugins/cordova-plugin-whitelist/whitelist.js",
         "id": "cordova-plugin-whitelist.whitelist",
         "runs": true
+    },
+    {
+        "file": "plugins/org.apache.cordova.plugin.cache/www/Cache.js",
+        "id": "org.apache.cordova.plugin.cache.Cache",
+        "clobbers": [
+            "cache"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -43,7 +50,8 @@ module.exports.metadata =
 {
     "cordova-plugin-google-analytics": "0.8.1",
     "cordova-plugin-smaato": "0.5.2",
-    "cordova-plugin-whitelist": "1.2.1"
+    "cordova-plugin-whitelist": "1.2.1",
+    "org.apache.cordova.plugin.cache": "1.0.5"
 };
 // BOTTOM OF METADATA
 });

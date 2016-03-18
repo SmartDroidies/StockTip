@@ -11,6 +11,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="Cache">
+        <param name="android-package" value="org.apache.cordova.plugin.cache.Cache" />
+    </feature>
     <icon density="mdpi" src="res/android/stock_mdpi.png" />
     <icon density="hdpi" src="res/android/stock_hdpi.png" />
     <icon density="xhdpi" src="res/android/stock_xhdpi.png" />

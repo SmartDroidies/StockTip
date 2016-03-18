@@ -26,45 +26,40 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
 		if(window.analytics) {
 			window.analytics.trackView('Spot Level');
 		}	
+		$scope.spot = null;
 		$scope.loading = true;
 
 		var promise = dataService.collectRemoteSpot();	
 		promise.then ( function(data) { 
-				//console.log("Payload : " + JSON.stringify(data));
-              	$scope.spot = data.spot;
-        	},
-        	function(errorPayload) {
-            	console.log('Failure loading spot level', errorPayload);
-          	});
-		$scope.loading = false;
-
-		//var spots = dataService.fetchFreshSpot();
-		//$scope.spot = spots;
+			//console.log("Payload : " + JSON.stringify(data));
+            $scope.spot = data.spot;
+            $scope.loading = false;
+        }, function(errorPayload) {
+        	//FIXME - Display error message here
+            console.log('Failure loading spot level', errorPayload);
+            $scope.loading = false;
+        });
  	 };
 
-	
 	//Display Stock Alert
     $scope.stockAlert = function() {
 		$scope.tab = 3;
 		if(window.analytics) {
 			window.analytics.trackView('Stock Alert');
 		}	
+		$scope.alert = null;
 		$scope.loading = true;
 		var promise = dataService.collectRemoteAlert();	
 		promise.then ( function(data) { 
-				//console.log("Payload : " + JSON.stringify(data));
-              	$scope.alert = data.alert;
-        	},
-        	function(errorPayload) {
-            	console.log('Failure loading stock alert', errorPayload);
-          	});
-		$scope.loading = false;
-
-		//var alerts = dataService.fetchFreshAlert();
-		//$scope.alert = alerts;
-		//window.analytics.trackView('Stock Alert');
+			//console.log("Payload : " + JSON.stringify(data));
+              $scope.alert = data.alert;
+              $scope.loading = false;
+        }, function(errorPayload) {
+        	//FIXME - Display error message here
+            console.log('Failure loading stock alert', errorPayload);
+            $scope.loading = false;
+        });
     };
-
 
 	//Display Stock Tips
     $scope.stockTip = function() {

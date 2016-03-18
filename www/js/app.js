@@ -1,6 +1,6 @@
 'use strict';
 /* App Module */
-var stockApp = angular.module('stockApp', ['ngRoute', 'ngTouch', 'ngSanitize', 'stockControllers', 'stockDirective', 'stockServices', 'cacheService', 'LocalStorageModule', 'angular-gestures', 'underscore', 'mgcrea.pullToRefresh']);
+var stockApp = angular.module('stockApp', ['ngRoute', 'ngTouch', 'ngSanitize', 'stockControllers', 'stockDirective', 'stockServices', 'cacheService', 'underscore']);
 
 stockApp.config(['$routeProvider', 
 		function ($routeProvider) {
@@ -39,9 +39,11 @@ stockApp.config(['$routeProvider',
 
 	
 //Local Storage Configuration	
+/*
 stockApp.config(function (localStorageServiceProvider) {
   localStorageServiceProvider.setPrefix('lsnsl');
 });
+*/
 
 
 stockApp.constant('config', {

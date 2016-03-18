@@ -140,6 +140,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "org.apache.cordova.plugin.cache": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
         }
     },
     "dependent_plugins": {}

@@ -22,7 +22,7 @@ html, body {
 	padding: 0px;
 }
 
-.main-header, .content, .group, .main {
+.main-header, .content, .main {
     padding: 0px;
     margin: 0px;
 }
@@ -219,7 +219,7 @@ div.divider {
 .spinner {
     height: 100%;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 img.spinner {
@@ -313,6 +313,8 @@ img.spinner {
 	margin: 50px 0px 0px 0px;
 	padding: 0px;
 	background: #337ab7;
+	position: absolute;
+	z-index: 99;
 }
 
 .tip-detail {
@@ -395,4 +397,9 @@ img.spinner {
     text-align: left;
     font-size: 18px;
     font-weight: bold;
+}
+
+.group {
+	margin: 80px 0px 0px 0px;
+	padding: 0px;
 }

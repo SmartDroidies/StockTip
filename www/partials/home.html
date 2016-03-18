@@ -22,7 +22,9 @@
 
 	<!-- Section for Spot Level -->  
 	<div id="spot-level" ng-if="tab == 1" class="col-xs-12 group " ng-swipe-left="stockTip()">
-		<div class="spinner" ng-show="loading">Display Spinner image here...</div>
+		<div class="spinner" ng-show="loading">
+			<img src="image/spinner.gif"/>
+		</div>
 		<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
 			<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
 			<div class="desc">{{entry.level}}</div>
@@ -50,7 +52,9 @@
 
 	<!-- Section for Stock Alert -->  
 	<div id="stock-alert" ng-if="tab == 3" class="col-xs-12 group" ng-swipe-right="stockTip()" >
-		<div class="spinner" ng-show="loading">Display Spinner image here...</div>
+		<div class="spinner" ng-show="loading">
+			<img src="image/spinner.gif"/>
+		</div>
 		<article class="spot" ng-repeat="entry in alert | orderBy:'-_id' ">
 			<h3>Alert : {{entry.ctime | date:'medium'}} </h3>
 			<div class="desc">{{entry.alert}}</div>
