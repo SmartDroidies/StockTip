@@ -10,24 +10,9 @@ stockApp.config(['$routeProvider',
 			}).when('/notify/:type', {
 				templateUrl : 'partials/home.html',
 				controller : 'HomeCtrl'
-			}).when('/spotlist', {
-				templateUrl : 'partials/spotlist.html',
-				controller : 'SpotListCtrl'
-			}).when('/alertlist', {
-				templateUrl : 'partials/alertlist.html',
-				controller : 'AlertListCtrl'
-			}).when('/tiplist', {
-				templateUrl : 'partials/tiplist.html',
-				controller : 'TipListCtrl'
-			}).when('/spot', {
-				templateUrl : 'partials/spot.html',
-				controller : 'SpotCtrl'
 			}).when('/tip/:id', {
 				templateUrl : 'partials/tip.html',
 				controller : 'TipDetailCtrl'
-			}).when('/tips', {
-				templateUrl : 'partials/tips.html',
-				controller : 'HomeCtrl'
 			}).when('/knowledge', {
 				templateUrl : 'partials/knowledge.html',
 				controller : 'HomeCtrl'

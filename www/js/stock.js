@@ -109,8 +109,6 @@ function rate() {
 //Funciton to initalize admob add
 function loadAd() {
 
-	//var div = document.createElement("div");
-	//document.appendChild(div);
 	var div = document.getElementById("smaatoad");   
 	var simpleAd = new Smaato(div, {
 	    publisherId: ad_units.publisherId,
@@ -118,24 +116,6 @@ function loadAd() {
 		adSize: SMAATO_AD_SIZE.BANNER,
 		autoShow: true	    
 	});
-
-	// it will display leaderboard banner at bottom center, using the default options 
-	//var div = document.createElement("div");
-	//document.appendChild(div);
-
-	/*
-	var adDiv = document.getElementById("ad-holder");
-	var simpleAd = new Smaato(adDiv, {
-	    publisherId: ad_units.publisherId,
-	    adId: adid.small_banner,
-	    position:SMAATO_AD_POSITION.BOTTOM_CENTER,
-	    autoShow: true, 
-	    autoReload: true, 
-	    isTesting: true,
-	    x: 0
-	});
-	*/
-
 }
 
 function onReceiveFail (message) {

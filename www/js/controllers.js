@@ -86,6 +86,7 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location', '
 		}	
 
 		$scope.tips = null;
+		$scope.tip = null;
 		$scope.loading = true;
 
 		var promise = dataService.getActiveTip();
@@ -108,6 +109,7 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location', '
 		}	
 
 		$scope.tips = null;
+		$scope.tip = null;
 		$scope.loading = true;
 
 		var promise = dataService.getArchiveTip();
@@ -124,7 +126,22 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location', '
 
     //Display tip detail
     $scope.showTipDetail = function(tipId) {
-    	$location.path('/tip/' + tipId);  
+		$scope.tips = null;
+		$scope.loading = true;
+    	//console.log("Display Tip Detail for - " + tipId);
+
+		var promise = dataService.getTipDetail(tipId);
+       	promise.then ( function(data) { 
+       		//console.log("Payload : " + JSON.stringify(data));
+       		$scope.tip = data.tip;
+            $scope.loading = false;
+        }, function(errorPayload) {
+        	//FIXME - Display error message here
+            console.log('Failure loading stock tip detail', errorPayload);
+            $scope.loading = false;
+        });		
+
+
     } 
 	
 	$scope.showHome();

@@ -318,7 +318,7 @@ img.spinner {
 }
 
 .tip-detail {
-	margin: 50px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
 	padding: 5px;
 	text-align: center;
 }
@@ -370,7 +370,7 @@ img.spinner {
 	padding: 0px;
     margin: 0px;
     border: 1px solid #486292;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .tip-head {

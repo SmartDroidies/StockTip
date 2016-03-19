@@ -193,6 +193,24 @@ stockServices.factory ('DataService', function (StorageService, cacheService, _,
        		});
      	return deferred.promise;
 	} 
+	
+	// Collect Stock Tip Detail from Remote server
+	factory.getTipDetail = function(tipId) {
+		var deferred = $q.defer();
+    	$http.get('http://nodejs-smartdroidies.rhcloud.com/stock/tip')
+    		.then(function(response) { 
+    			//$log.info("Response : " + JSON.stringify(response.data));
+    			var selTip = _.find(response.data.data, function(tip) {
+					return (tip._id == tipId); 
+				});
+          		deferred.resolve({ tip: selTip});
+       		}, function errorCallback(response) {
+          		deferred.reject(response);
+    			$log.error(response);
+       		});
+     	return deferred.promise;
+	} 
+
 
 
     return factory;

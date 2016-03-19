@@ -48,10 +48,36 @@
 			<div class="spinner" ng-show="loading">
 				<img src="image/spinner.gif"/>
 			</div>
-			<article class="tip" ng-repeat="entry in tips | orderBy:'-_id' " ng-click="showTipDetail(entry._id)">
+			<article class="tip" ng-if="tip == null" ng-repeat="entry in tips | orderBy:'-_id' " ng-click="showTipDetail(entry._id)">
 				<h3 class="sec-main-head">{{entry.call.trim() =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
 				<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>
 				<!--img id="img-tip-status" class="img-tip-status" src="image/status_{{entry.status}}.png"/-->
+			</article>
+			<article class="tip-detail" ng-if="tip != null">
+				<div class="tip-container col-xs-12">
+
+					<div class="col-xs-12 tip-head">{{tip.call.trim() =='S' ? 'Sell' : 'Buy'}}  {{tip.script}}</div>
+					<!--h2 class="sub-head">{{tip.ctime | date:'medium'}}</h2-->
+					<div class="col-xs-12 tip-row">
+						<div class="col-xs-4 tip-label">Curr Level</div>
+						<div class="col-xs-8 tip-value">{{tip.rate}}</div>
+					</div>
+					<div class="col-xs-12 tip-row">
+						<div class="col-xs-4 tip-label">Target</div>
+						<div class="col-xs-8 tip-value">{{tip.tgt}}</div>
+					</div>
+					<div class="col-xs-12 tip-row">
+						<div class="col-xs-4 tip-label">Stop Loss</div>
+						<div class="col-xs-8 tip-value">{{tip.sl}}</div>
+					</div>
+					<div class="col-xs-12 tip-row">
+						<div class="col-xs-4 tip-label">Duration</div>
+						<div class="col-xs-8 tip-value">{{tip.dur}}</div>
+					</div>
+					<div class="col-xs-12 tip-row">
+						<u>Note:</u> {{tip.tip}}
+					</div>
+				</div>	
 			</article>
 		</div>	
 	</div>
