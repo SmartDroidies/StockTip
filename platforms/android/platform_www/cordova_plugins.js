@@ -43,6 +43,27 @@ module.exports = [
         "clobbers": [
             "cache"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-dialogs/www/notification.js",
+        "id": "cordova-plugin-dialogs.notification",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-dialogs/www/android/notification.js",
+        "id": "cordova-plugin-dialogs.notification_android",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-gcmpush/www/gcm.js",
+        "id": "cordova-plugin-gcmpush.GCMPush",
+        "clobbers": [
+            "GCMPush"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -51,7 +72,9 @@ module.exports.metadata =
     "cordova-plugin-google-analytics": "0.8.1",
     "cordova-plugin-smaato": "0.5.2",
     "cordova-plugin-whitelist": "1.2.1",
-    "org.apache.cordova.plugin.cache": "1.0.5"
+    "org.apache.cordova.plugin.cache": "1.0.5",
+    "cordova-plugin-dialogs": "1.2.0",
+    "cordova-plugin-gcmpush": "0.0.1"
 };
 // BOTTOM OF METADATA
 });

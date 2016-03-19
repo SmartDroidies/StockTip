@@ -25,6 +25,9 @@
 		<div class="spinner" ng-show="loading">
 			<img src="image/spinner.gif"/>
 		</div>
+		<div class="error" ng-show="error">
+			Failed to Load Stock Tip. Please check your network settings and try again
+		</div>
 		<article class="spot" ng-repeat="entry in spot | orderBy:'-_id' ">
 			<h3>SPOT : {{entry.index}} - {{entry.date}}</h3>
 			<div class="desc">{{entry.level}}</div>
@@ -45,7 +48,7 @@
 			<div class="spinner" ng-show="loading">
 				<img src="image/spinner.gif"/>
 			</div>
-			<article class="tip" ng-repeat="entry in tip | orderBy:'-_id' " ng-click="showTipDetail(entry._id)">
+			<article class="tip" ng-repeat="entry in tips | orderBy:'-_id' " ng-click="showTipDetail(entry._id)">
 				<h3 class="sec-main-head">{{entry.call.trim() =='S' ? 'Sell' : 'Buy'}}  {{entry.script}} at {{entry.rate}}</h3>
 				<h2 class="sub-head">{{entry.ctime | date:'medium'}}</h2>
 				<!--img id="img-tip-status" class="img-tip-status" src="image/status_{{entry.status}}.png"/-->

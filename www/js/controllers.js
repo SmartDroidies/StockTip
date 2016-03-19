@@ -4,13 +4,21 @@
 
 var stockControllers = angular.module('stockControllers', []);
 
-stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
-  function($scope, dataService, $location) {
+stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location', '$routeParams',
+  function($scope, dataService, $location, $routeParams) {
 	//Show Home Page
 	$scope.showHome = function () {    
 		hideMenu();
 
-		if(!$scope.tab) {
+		var typ = $routeParams.type;
+		if(typ) {
+			//console.log("Type : " + typ);
+			if(typ == 'ALERT') {
+				$scope.stockAlert();
+			} else if (typ == 'TIP') {
+				$scope.stockTip();
+			}
+		} else if(!$scope.tab) {
 			$scope.spotLevel();
 		}
 
@@ -52,8 +60,8 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
 		var promise = dataService.collectRemoteAlert();	
 		promise.then ( function(data) { 
 			//console.log("Payload : " + JSON.stringify(data));
-              $scope.alert = data.alert;
-              $scope.loading = false;
+            $scope.alert = data.alert;
+            $scope.loading = false;
         }, function(errorPayload) {
         	//FIXME - Display error message here
             console.log('Failure loading stock alert', errorPayload);
@@ -80,27 +88,21 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
 		$scope.tips = null;
 		$scope.loading = true;
 
-		/*
 		var promise = dataService.getActiveTip();
-       	promise.then(
-       		function(payload) { 
-       			alert("Promise Call Success");
-              	//$scope.listingData = payload.data;
-          	},
-          	function(errorPayload) {
-          		alert("Promise Call Failed");
-              	//$log.error('failure loading movie', errorPayload);
-          	});		
-        */ 	
-		//var tips = dataService.fetchActiveTips();
-		//$scope.tip = tips;
-		//console.log("Tips JSON : " + JSON.stringify(tips));
+       	promise.then ( function(data) { 
+       		//console.log("Payload : " + JSON.stringify(data));
+       		$scope.tips = data.tips;
+            $scope.loading = false;
+        }, function(errorPayload) {
+        	//FIXME - Display error message here
+            console.log('Failure loading stock tips', errorPayload);
+            $scope.loading = false;
+        });		
     };
 
 	//Display Archive Tips
     $scope.archiveTips = function() {
 		$scope.tipTab = 2;
-		
 		if(window.analytics) {
 			window.analytics.trackView('Stock Tip - Archive');
 		}	
@@ -108,12 +110,16 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location',
 		$scope.tips = null;
 		$scope.loading = true;
 
-
-		/*
-		var tips = dataService.fetchArchiveTips();
-		$scope.tip = tips;
-		*/
-		//window.analytics.trackView('Stock Alert');
+		var promise = dataService.getArchiveTip();
+       	promise.then ( function(data) { 
+       		//console.log("Payload : " + JSON.stringify(data));
+       		$scope.tips = data.tips;
+            $scope.loading = false;
+        }, function(errorPayload) {
+        	//FIXME - Display error message here
+            console.log('Failure loading stock tips', errorPayload);
+            $scope.loading = false;
+        });		
     };
 
     //Display tip detail

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-gcmpush" version="0.0.1">
+    <name>GCM Push</name>
+    <description>GCM Push Notificaiton Plugin</description>
+    <author>SmartDroidies</author>
+    <keywords>gcm,push,notification</keywords>
+    <license>MIT</license>
+    <js-module src="www/gcm.js" name="GCMPush">
+    	<clobbers target="GCMPush" />
+    </js-module>
+    <platform name="android">
+
+        <framework src="com.google.android.gms:play-services-gcm:8.3.0" />
+
+        <config-file target="res/xml/config.xml" parent="/*">
+          <feature name="GCMPush">
+            <param name="android-package" value="com.smart.droid.gcm.GCMPush"/>
+            <param name="onload" value="true" />
+          </feature>
+        </config-file>        
+
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+            <uses-permission android:name="android.permission.WAKE_LOCK" />
+            <uses-permission android:name="android.permission.VIBRATE"/>
+            <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+            <permission android:name="$PACKAGE_NAME.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+            <uses-permission android:name="$PACKAGE_NAME.permission.C2D_MESSAGE" />
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:name="com.smart.droid.gcm.GCMActivity" android:exported="true"/>
+            <receiver android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
+                <intent-filter>
+                    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                    <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                    <category android:name="$PACKAGE_NAME" />
+                </intent-filter>
+            </receiver>
+            <service android:name="com.smart.droid.gcm.ListenerService">
+                <intent-filter>
+                    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                </intent-filter>
+            </service>
+            <service android:name="com.smart.droid.gcm.GCMInstanceIDListenerService">
+                <intent-filter>
+                    <action android:name="com.google.android.gms.iid.InstanceID" />
+                </intent-filter>
+            </service>              
+            <service android:name="com.smart.droid.gcm.RegistrationIntentService" android:exported="false">
+            </service>
+        </config-file>           
+        
+        <!-- android-specific elements -->
+        <source-file src="src/android/GCMPush.java" target-dir="src/com/smart/droid/gcm" />
+        <source-file src="src/android/RegistrationIntentService.java" target-dir="src/com/smart/droid/gcm" />
+        <source-file src="src/android/GCMInstanceIDListenerService.java" target-dir="src/com/smart/droid/gcm" />
+        <source-file src="src/android/GCMActivity.java" target-dir="src/com/smart/droid/gcm" />
+        <source-file src="src/android/ListenerService.java" target-dir="src/com/smart/droid/gcm" />
+
+    </platform>
+
+</plugin>   

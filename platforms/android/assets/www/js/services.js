@@ -147,20 +147,6 @@ stockServices.factory ('DataService', function (StorageService, cacheService, _,
                    	spot:  response.data.data
                 }
             });
-		/*
-		var deferred = $q.defer();
-    	$http.get('')
-    		.then (
-    		)
-    		.success(function(data) { 
-    			$log.info("Response : " + JSON.stringify(data));
-          		deferred.resolve({ ts: data.title, cost: data.price});
-       		}).error(function(msg, code) {
-          		deferred.reject(msg);
-    			$log.error(msg, code);
-       		});
-     	return deferred.promise;
-     	*/
 	} 
 
 	// Collect Stock Alert from Remote server
@@ -172,20 +158,40 @@ stockServices.factory ('DataService', function (StorageService, cacheService, _,
                    	alert:  response.data.data
                 }
             });
-		/*
+	} 
+
+	// Collect Stock Tip from Remote server
+	factory.getActiveTip = function() {
 		var deferred = $q.defer();
-    	$http.get('')
-    		.then (
-    		)
-    		.success(function(data) { 
-    			$log.info("Response : " + JSON.stringify(data));
-          		deferred.resolve({ ts: data.title, cost: data.price});
-       		}).error(function(msg, code) {
-          		deferred.reject(msg);
-    			$log.error(msg, code);
+    	$http.get('http://nodejs-smartdroidies.rhcloud.com/stock/tip')
+    		.then(function(response) { 
+    			//$log.info("Response : " + JSON.stringify(response.data));
+    			var active = _.filter(response.data.data, function(tip) {
+					return (tip.active == 'Y'); 
+				});
+          		deferred.resolve({ ts: response.data.title, tips: active});
+       		}, function errorCallback(response) {
+          		deferred.reject(response);
+    			$log.error(response);
        		});
      	return deferred.promise;
-     	*/
+	} 
+
+	// Collect Stock Tip from Remote server
+	factory.getArchiveTip = function() {
+		var deferred = $q.defer();
+    	$http.get('http://nodejs-smartdroidies.rhcloud.com/stock/tip')
+    		.then(function(response) { 
+    			//$log.info("Response : " + JSON.stringify(response.data));
+    			var archive = _.filter(response.data.data, function(tip) {
+					return (tip.active != 'Y'); 
+				});
+          		deferred.resolve({ ts: response.data.title, tips: archive});
+       		}, function errorCallback(response) {
+          		deferred.reject(response);
+    			$log.error(response);
+       		});
+     	return deferred.promise;
 	} 
 
 

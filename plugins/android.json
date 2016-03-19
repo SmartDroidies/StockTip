@@ -143,6 +143,12 @@
         },
         "org.apache.cordova.plugin.cache": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "cordova-plugin-gcmpush": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
         }
     },
     "dependent_plugins": {}

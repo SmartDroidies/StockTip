@@ -23,13 +23,50 @@
                         {
                             "xml": "<feature name=\"Cache\"><param name=\"android-package\" value=\"org.apache.cordova.plugin.cache.Cache\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"GCMPush\"><param name=\"android-package\" value=\"com.smart.droid.gcm.GCMPush\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
             },
             "AndroidManifest.xml": {
                 "parents": {
-                    "/manifest": [],
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<permission android:name=\"com.smart.droid.stock.tip.permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"com.smart.droid.stock.tip.permission.C2D_MESSAGE\" />",
+                            "count": 1
+                        }
+                    ],
                     "/manifest/application": [
                         {
                             "xml": "<receiver android:enabled=\"true\" android:name=\"com.google.android.gms.analytics.AnalyticsReceiver\"><intent-filter><action android:name=\"com.google.android.gms.analytics.ANALYTICS_DISPATCH\" /></intent-filter></receiver>",
@@ -45,6 +82,26 @@
                         },
                         {
                             "xml": "<service android:name=\"com.google.android.gms.analytics.CampaignTrackingService\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:exported=\"true\" android:name=\"com.smart.droid.gcm.GCMActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:name=\"com.google.android.gms.gcm.GcmReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /><action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" /><category android:name=\"com.smart.droid.stock.tip\" /></intent-filter></receiver>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:name=\"com.smart.droid.gcm.ListenerService\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /></intent-filter></service>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:name=\"com.smart.droid.gcm.GCMInstanceIDListenerService\"><intent-filter><action android:name=\"com.google.android.gms.iid.InstanceID\" /></intent-filter></service>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:exported=\"false\" android:name=\"com.smart.droid.gcm.RegistrationIntentService\"></service>",
                             "count": 1
                         }
                     ],
@@ -73,6 +130,12 @@
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
         "org.apache.cordova.plugin.cache": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "cordova-plugin-gcmpush": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         }
     },
@@ -121,12 +184,35 @@
             "clobbers": [
                 "cache"
             ]
+        },
+        {
+            "file": "plugins/cordova-plugin-dialogs/www/notification.js",
+            "id": "cordova-plugin-dialogs.notification",
+            "merges": [
+                "navigator.notification"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-dialogs/www/android/notification.js",
+            "id": "cordova-plugin-dialogs.notification_android",
+            "merges": [
+                "navigator.notification"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-gcmpush/www/gcm.js",
+            "id": "cordova-plugin-gcmpush.GCMPush",
+            "clobbers": [
+                "GCMPush"
+            ]
         }
     ],
     "plugin_metadata": {
         "cordova-plugin-google-analytics": "0.8.1",
         "cordova-plugin-smaato": "0.5.2",
         "cordova-plugin-whitelist": "1.2.1",
-        "org.apache.cordova.plugin.cache": "1.0.5"
+        "org.apache.cordova.plugin.cache": "1.0.5",
+        "cordova-plugin-dialogs": "1.2.0",
+        "cordova-plugin-gcmpush": "0.0.1"
     }
 }

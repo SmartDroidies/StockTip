@@ -219,7 +219,7 @@ div.divider {
 .spinner {
     height: 100%;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 img.spinner {
@@ -327,6 +327,7 @@ img.spinner {
 	margin: 0px;
 	padding: 0px;
 	background: #337ab7;
+	position: absolute;
 }
 
 .main-tabs li, .tip-tabs li {
@@ -361,7 +362,7 @@ img.spinner {
 }
 
 .tip-list {
-	margin: 5px 0px 0px 0px;
+	margin: 35px 0px 0px 0px;
     padding: 0px;
 }
 
@@ -402,4 +403,5 @@ img.spinner {
 .group {
 	margin: 80px 0px 0px 0px;
 	padding: 0px;
+	position: relative;
 }

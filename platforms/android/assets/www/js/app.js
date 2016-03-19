@@ -7,6 +7,9 @@ stockApp.config(['$routeProvider',
 			$routeProvider.when('/home', {
 				templateUrl : 'partials/home.html',
 				controller : 'HomeCtrl'
+			}).when('/notify/:type', {
+				templateUrl : 'partials/home.html',
+				controller : 'HomeCtrl'
 			}).when('/spotlist', {
 				templateUrl : 'partials/spotlist.html',
 				controller : 'SpotListCtrl'
