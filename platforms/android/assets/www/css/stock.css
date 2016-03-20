@@ -46,6 +46,12 @@ html, body {
 	top : 10px;
 }
 
+.right-menu-control {
+	position : absolute;
+	right : 5px;
+	top : 10px;
+}
+
 .app-icon {
 	position : absolute;
 	left : 2px;
@@ -126,6 +132,8 @@ nav.main-footer ul {
 	box-shadow: 5px 5px 5px #364D77;
 	position: absolute;
 	top: 0px;
+	right: 0px;
+    z-index: 100;	
 	display : none;
 }
 
@@ -404,4 +412,10 @@ img.spinner {
 	margin: 80px 0px 0px 0px;
 	padding: 0px;
 	position: relative;
+}
+
+.banner-ad {
+	position: absolute;
+	bottom: 0px;
+	max-height: 100px;
 }

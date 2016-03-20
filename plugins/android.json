@@ -135,9 +135,6 @@
         "cordova-plugin-google-analytics": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
-        "cordova-plugin-smaato": {
-            "PACKAGE_NAME": "com.smart.droid.stock.tip"
-        },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
@@ -148,6 +145,18 @@
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         },
         "cordova-plugin-gcmpush": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "cordova-plugin-email-composer": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
         }
     },

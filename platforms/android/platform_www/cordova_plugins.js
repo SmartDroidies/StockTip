@@ -8,31 +8,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-smaato/www/SmaatoPositions.js",
-        "id": "cordova-plugin-smaato.SmaatoPositions",
-        "clobbers": [
-            "window.SMAATO_AD_POSITION"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-smaato/www/SmaatoSizes.js",
-        "id": "cordova-plugin-smaato.SmaatoSizes",
-        "clobbers": [
-            "window.SMAATO_AD_SIZE"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-smaato/www/vast-client.js",
-        "id": "cordova-plugin-smaato.DMVAST"
-    },
-    {
-        "file": "plugins/cordova-plugin-smaato/www/Smaato.js",
-        "id": "cordova-plugin-smaato.Smaato",
-        "clobbers": [
-            "window.Smaato"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-whitelist/whitelist.js",
         "id": "cordova-plugin-whitelist.whitelist",
         "runs": true
@@ -64,17 +39,50 @@ module.exports = [
         "clobbers": [
             "GCMPush"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+        "id": "cordova-plugin-x-socialsharing.SocialSharing",
+        "clobbers": [
+            "window.plugins.socialsharing"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-device/www/device.js",
+        "id": "cordova-plugin-device.device",
+        "clobbers": [
+            "device"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-email-composer/www/email_composer.js",
+        "id": "cordova-plugin-email-composer.EmailComposer",
+        "clobbers": [
+            "cordova.plugins.email",
+            "plugin.email"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "cordova-plugin-google-analytics": "0.8.1",
-    "cordova-plugin-smaato": "0.5.2",
     "cordova-plugin-whitelist": "1.2.1",
     "org.apache.cordova.plugin.cache": "1.0.5",
     "cordova-plugin-dialogs": "1.2.0",
-    "cordova-plugin-gcmpush": "0.0.1"
+    "cordova-plugin-gcmpush": "0.0.1",
+    "cordova-plugin-x-socialsharing": "5.0.11",
+    "cordova-plugin-device": "1.1.1",
+    "cordova-plugin-inappbrowser": "1.3.0",
+    "cordova-plugin-email-composer": "0.8.3"
 };
 // BOTTOM OF METADATA
 });

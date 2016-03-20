@@ -13,9 +13,9 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location', '
 		var typ = $routeParams.type;
 		if(typ) {
 			//console.log("Type : " + typ);
-			if(typ == 'ALERT') {
+			if(typ == 'Alert') {
 				$scope.stockAlert();
-			} else if (typ == 'TIP') {
+			} else if (typ == 'Tip') {
 				$scope.stockTip();
 			}
 		} else if(!$scope.tab) {
@@ -26,7 +26,32 @@ stockControllers.controller('HomeCtrl', ['$scope', 'DataService', '$location', '
 
 	//Share
 	$scope.share = function () {	
+		window.plugins.socialsharing.share('Follow Nifty', 'Nifty Spot Level', null, 'https://play.google.com/store/apps/details?id=com.smart.droid.stock.tip');
+		$("#menu").hide(100);
 	};
+
+	//Rate
+	$scope.rate = function () {	
+		var version = device.platform;
+		if(version == "Android") {
+			var url = "market://details?id=com.smart.droid.stock.tip";
+	        window.open(url,"_system");			
+		} else {
+		}
+		$("#menu").hide(100);
+	};
+
+	//Feedback
+	$scope.feedback = function () {	
+		cordova.plugins.email.open({
+			to:      'gfservices2013@gmail.com',
+			subject: 'Feedback on Nifty Spot Level',
+			body:    '',
+			isHtml:  true
+		});
+		$("#menu").hide(100);
+	};
+
 
 	//Display Spot Level
     $scope.spotLevel = function() {

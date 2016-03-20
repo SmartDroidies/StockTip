@@ -12,8 +12,6 @@
   <script type="text/javascript" src="js/angular-resource/angular-resource.min.js"></script>    
   <script type="text/javascript" src="js/angular-sanitize/angular-sanitize.min.js"></script>
   <script type="text/javascript" src="js/angular-touch/angular-touch.min.js"></script>
-  <!--script type="text/javascript" src="js/angular-local-storage/angular-local-storage.min.js"></script>
-  <script type="text/javascript" src="js/jquery-i18n-properties/jquery.i18n.properties.js"></script-->
   <script type="text/javascript" charset="utf-8" src="cordova.js"></script>  
   <script type="text/javascript" src="js/underscore/underscore.js"></script>    
   <script type="text/javascript" src="js/underscore/angular-underscore-module.js"></script>  
@@ -21,23 +19,21 @@
   <script type="text/javascript" src="js/app.js"></script>
   <script type="text/javascript" src="js/controllers.js"></script>
   <script type="text/javascript" src="js/services.js"></script>
-  <!--script type="text/javascript" src="js/notify.js"></script-->
   <script type="text/javascript" src="js/filters.js"></script>
 </head>
 <body class="col-xs-12 body">
 
-	<!--div id="app-status-ul" data-role="page"></div-->
   <div ng-view class="col-xs-12 main"> </div>
   <!--div id="ad-holder" class="ad"></div-->
-  <div id="smaatoad" style="padding: 0px" clas="col-xs-12"></div>
-  <!--script type="text/javascript" src="http://soma-assets.smaato.net/js/smaatoAdTag.js"></script-->
-  <!--script type="text/javascript" src="js/smaato/smaatoAdTag.js"></script>
+  <div id="smaatoad" style="padding: 0px" class="col-xs-12 banner-ad"></div>
+  <div id="smaatoadint" style="padding: 0px" class="col-xs-12"></div>
+  <script type="text/javascript" src="js/smaato/smaatoAdTag.js"></script>
   <script>
     function callBackForSmaato(status){
       if(status == "SUCCESS"){
-        console.log('callBack is being called with status : ' + status);
+        //console.log('callBack is being called with status : ' + status);
       } else if (status == "ERROR"){
-        console.log('callBack is being called with status : ' + status);
+        //console.log('callBack is being called with status : ' + status);
       }
     }; 
     SomaJS.loadAd({
@@ -48,6 +44,6 @@
       autoReload: 30,
       keywords: "stock,finance"
     },callBackForSmaato);
-  </script-->
+  </script>
 </body>
 </html>

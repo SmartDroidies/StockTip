@@ -19,16 +19,16 @@ function onDeviceReadyAction() {
 
 	window.analytics.startTrackerWithId(analyticsId);
 
-	//Load Admob Ad
-	loadAd();	
-
 	//Initialize for Google Cloud Messaging
   	initializeGCM();
+
+	//Load Admob Ad
+	loadAd();	
 
 	//Handle Menu 
 	$( "#menu-cntrl" ).click(function() {
 		if($("#menu").is(":visible")) {
-			$("#menu").hide(200);
+			$("#menu").hide();
 		} else {
 			$("#menu").show(400);
 		}
@@ -77,68 +77,25 @@ function exitAppPopup() {
 }
 
 
-//Share the app link with user
-function share() {
-	window.plugins.socialsharing.share('Follow Nifty', 'Nifty Spot Level', null, 'https://play.google.com/store/apps/details?id=com.smart.droid.stock.tip');
-	$("#menu").hide(100);
-}
-
-//Provide Feedback
-function feedback() {
-	window.plugin.email.open({
-		to:      ['gfservices2013@gmail.com'],
-		subject: 'Feedback on Nifty Spot Level',
-		body:    '',
-		isHtml:  true
-	});
-	$("#menu").hide(100);
-}
-
-//Rate App
-function rate() {
-	var version = device.platform;
-	if(version == "Android") {
-		var url = "market://details?id=com.smart.droid.stock.tip";
-        window.open(url,"_system");			
-	} else {
-	}
-	$("#menu").hide(100);
-}
-
-
 //Funciton to initalize admob add
 function loadAd() {
+	//prepareInterstitial();
+}
 
-	var div = document.getElementById("smaatoad");   
-	var simpleAd = new Smaato(div, {
+//Loading Intersitial Ad 
+function prepareInterstitial() {
+	SomaJS.loadAd({
+	    adDivId : "smaatoadint",
 	    publisherId: ad_units.publisherId,
-	    adId: ad_units.android.banner,
-		adSize: SMAATO_AD_SIZE.BANNER,
-		autoShow: true	    
-	});
+	    adSpaceId: ad_units.android.interstitial,
+		format: "vast",
+		formatstrict: true,
+	    dimension: "full_320x480"
+	  },callBackForSmaatoInter);
 }
 
-function onReceiveFail (message) {
-	var msg=admob.Error[message.data];
-    if(msg==undefined) {
-    	msg=message.data;
-	}
-	console.log("Admob Failure : " + msg);
-}
-
-function onReceiveSuccess(message){
-	//var msg=message.type+"\n";
-	//console.log("Admob Success : " + msg);
-	//admob.showInterstitial();
-}
-
-//Load AdMob Interstitial Ad
-function showInterstitial(){
-    admob.isInterstitialReady(function(isReady){
-        if(isReady){
-            admob.showInterstitial();
-        }
-    });
+function callBackForSmaatoInter(status) {
+	console.log("Smaato Inter Callback : " + status);
 }
 
 //Initialize Google Clould Messaging
@@ -153,7 +110,7 @@ function initializeGCM() {
 
 //Success Handler for GCM Resgistration
 function successHandlerGCM(result) {
-  console.log("GCM Successfully Registered. Token: " + result.gcm);
+  //console.log("GCM Successfully Registered. Token: " + result.gcm);
 }
 
 //Failure Handler for GCM Resgistration
@@ -163,12 +120,9 @@ function errorHandlerGCM(error) {
 
 //GCM Notification Recieved
 function onNotification(extra) {
-  //console.log("Event Received: " + extra);  
+  console.log("Event Received: " + extra);  
   if(extra) {
-	var data = JSON.parse(extra);		  	
-	if(data.type) {
-		var landingPath = "#/notify/" + data.type;
-		window.location = landingPath;
-	}
+	var landingPath = "#/notify/" + extra;
+	window.location = landingPath;
   }
 }
