@@ -20,7 +20,7 @@ function onDeviceReadyAction() {
 	window.analytics.startTrackerWithId(analyticsId);
 
 	//Initialize for Google Cloud Messaging
-  	initializeGCM();
+  initializeGCM();
 
 	//Load Admob Ad
 	loadAd();	
