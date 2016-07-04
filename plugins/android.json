@@ -158,7 +158,14 @@
         },
         "cordova-plugin-email-composer": {
             "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        },
+        "cordova-plugin-admobpro": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-extension": {
+            "PACKAGE_NAME": "com.smart.droid.stock.tip"
+        }
+    }
 }

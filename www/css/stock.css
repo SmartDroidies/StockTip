@@ -29,7 +29,8 @@ html, body {
 
 .main {
     overflow-y: scroll;
-    height: calc(100% - 50px);
+    /* height: calc(100% - 50px); */
+    height: 100%; 
 }
 
 .content  {
